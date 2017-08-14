@@ -1,0 +1,98 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\efun\
+* doc\com\efun\sdk\
+* doc\com\efun\sdk\entrance\
+* doc\com\efun\sdk\entrance\EfunSDK.html
+* doc\com\efun\sdk\entrance\constant\
+* doc\com\efun\sdk\entrance\constant\EfunChannelType.html
+* doc\com\efun\sdk\entrance\constant\EfunInvitationType.html
+* doc\com\efun\sdk\entrance\constant\EfunLanguage.html
+* doc\com\efun\sdk\entrance\constant\EfunPayType.html
+* doc\com\efun\sdk\entrance\constant\EfunRankingType.html
+* doc\com\efun\sdk\entrance\constant\EfunShareType.html
+* doc\com\efun\sdk\entrance\constant\package-frame.html
+* doc\com\efun\sdk\entrance\constant\package-summary.html
+* doc\com\efun\sdk\entrance\entity\
+* doc\com\efun\sdk\entrance\entity\EfunAdsWallEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunBaseEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunCustomerServiceEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunFormEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunGetUserEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunInvitationEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunLoginEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunLogoutEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunNoteEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunPayEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunPlatformEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunProtocolEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunRankingEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunSettingEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunShareEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunSocialBaseEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunTrackingEventEntity.html
+* doc\com\efun\sdk\entrance\entity\EfunUser.html
+* doc\com\efun\sdk\entrance\entity\EfunWebPageEntity.html
+* doc\com\efun\sdk\entrance\entity\package-frame.html
+* doc\com\efun\sdk\entrance\entity\package-summary.html
+* doc\com\efun\sdk\entrance\impl\
+* doc\com\efun\sdk\entrance\impl\EfunSDKImpl.html
+* doc\com\efun\sdk\entrance\impl\package-frame.html
+* doc\com\efun\sdk\entrance\impl\package-summary.html
+* doc\com\efun\sdk\entrance\package-frame.html
+* doc\com\efun\sdk\entrance\package-summary.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index.html
+* doc\overview-frame.html
+* doc\overview-summary.html
+* doc\package-list
+* doc\resources\
+* doc\resources\background.gif
+* doc\resources\tab.gif
+* doc\resources\titlebar.gif
+* doc\resources\titlebar_end.gif
+* doc\serialized-form.html
+* doc\stylesheet.css
+* ic_launcher-web.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => Efun-Interface-lib\src\main\AndroidManifest.xml
+* libs\efun-task-3.9.jar => Efun-Interface-lib\libs\efun-task-3.9.jar
+* libs\efun-utils-5.2.jar => Efun-Interface-lib\libs\efun-utils-5.2.jar
+* res\ => Efun-Interface-lib\src\main\res
+* src\ => Efun-Interface-lib\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

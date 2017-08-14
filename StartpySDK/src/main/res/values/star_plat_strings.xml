@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="plat_account_manage">賬號管理</string>
+    <string name="plat_free_reg_account">免註冊賬號 ：%1$s</string>
+    <string name="plat_already_bind_phone">已綁定手機賬號 ：%1$s</string>
+
+
+
+</resources>

@@ -1,0 +1,17 @@
+{
+  "S_Pay_Spa_Url": "http://pay-tw.starb168.com/",
+  "S_Pay_Pre_Url": "http://pay-tw.starb168.com/",
+  "S_Login_Spa_Url": "http://login-tw.starb168.com/",
+  "S_Login_Pre_Url": "http://login-tw.starb168.com/",
+  "S_CS_Spa_Url": "http://cs-tw.starb168.com/",
+  "S_CS_Pre_Url": "http://cs-tw.starb168.com/",
+  "S_Act_Pre_Url": "",
+  "S_Act_Spa_Url": "",
+  "S_Login_password_Regularly": "",
+  "S_Login_account_Regularly": "",
+  "GoogleToOthersPay": false,
+  "OpenOthersPay": "com.star.yue.liang,com.ea.uk,com.cwgl.brmmd,com.star.mrmmd.tw",
+  "S_Is_Reload_Cfg": [
+
+  ]
+}

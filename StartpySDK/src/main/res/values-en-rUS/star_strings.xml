@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="py_account_login">Account Login</string>
+    <string name="py_account">Account:</string>
+    <string name="py_account_hit">Account</string>
+    <string name="py_password">Password:</string>
+    <string name="py_password_hit">Password</string>
+    <string name="py_login">Login</string>
+    <string name="py_register_account">Sign Up</string>
+    <string name="py_login_fb">Facebook Login</string>
+    <string name="py_login_star">Account Login</string>
+    <string name="py_login_mac">Free Login</string>
+    <string name="py_register_account_hit">6~18 Characters</string>
+    <string name="py_confire">Confirm</string>
+    <string name="py_register_account_terms">License Agreement And Privacy Policy</string>
+
+    <string name="py_password_error">Password Format Error</string>
+    <string name="py_account_error">Account Format Error</string>
+    <string name="py_account_empty">Account Can Not Be Blank</string>
+    <string name="py_password_empty">Password Can Not Be Blank</string>
+    <string name="py_password_equal_account"> Account And Password Can’t Be The Same</string>
+    <string name="py_select_terms">Please Check To Agree Service Terms</string>
+    <string name="py_register_success">Register Succeed</string>
+    <string name="py_login_success">Login Succeed</string>
+    <string name="py_login_terms"> User License Agreement</string>
+    <string name="py_error_occur">Error Occurred, Please Try Again</string>
+    <string name="py_error_time_out">Connection Timeout, Please Try Again</string>
+    <string name="py_auto_login_change">Switch Account</string>
+    <string name="py_pay_title">Prepaid</string>
+    <string name="py_login_mac_tips">You Logged In to %1$s ‘s Account And Following Is The Password:\nAccount: %2$s Password: %3$s</string>
+    <string name="py_login_mac_saveimage_tips">Your Account And Password Are Saved To The Album</string>
+    <string name="py_login_autologin_tips">Account %1$s Is Logging In</string>
+    <string name="py_login_autologin_fblogining_tips">facebook account logging in</string>
+
+</resources>

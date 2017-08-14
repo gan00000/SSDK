@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="py_account_login">帳號登入</string>
+    <string name="py_account">帳號:</string>
+    <string name="py_account_hit">帳號</string>
+    <string name="py_password">密碼:</string>
+    <string name="py_password_hit">密碼</string>
+    <string name="py_login">登入</string>
+    <string name="py_register_account">註冊帳號</string>
+    <string name="py_login_fb">Facebook登入</string>
+    <string name="py_login_star">新玩意帳號登入</string>
+    <string name="py_login_mac">免註冊登入</string>
+    <string name="py_register_account_hit">6~18字符,僅限字母或數字</string>
+    <string name="py_confire">確認</string>
+    <string name="py_register_account_terms">我已閱讀并同意《會員條款及管理規章》</string>
+    <string name="py_password_error">密碼格式錯誤</string>
+    <string name="py_account_error">帳號格式錯誤</string>
+    <string name="py_account_empty">帳號不能為空</string>
+    <string name="py_password_empty">密碼不能為空</string>
+    <string name="py_password_equal_account">帳號、密碼不能一樣</string>
+    <string name="py_select_terms">請勾選同意服務條款</string>
+    <string name="py_register_success">註冊成功</string>
+    <string name="py_login_success">登入成功</string>
+    <string name="py_login_terms">會員條款及管理規章</string>
+    <string name="py_error_occur">發生錯誤，請重試</string>
+    <string name="py_error_time_out">鏈接超時，請重試</string>
+    <string name="py_auto_login_change">切換帳號</string>
+    <string name="py_pay_title">儲值</string>
+    <string name="py_login_mac_tips">你登入 %1$s 的帳號和密碼如下:\n帳號: %2$s 密碼: %3$s</string>
+    <string name="py_login_mac_saveimage_tips">你的帳號密碼已經保存到相冊中</string>
+    <string name="py_login_autologin_tips">帳號 %1$s 正在登錄</string>
+    <string name="py_login_autologin_fblogining_tips">facebook帳號正在登錄</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+
+    <!--&lt;!&ndash;全球地区域名&ndash;&gt;-->
+    <!--<string name="star_py_login_pre_url">http://g-login.starb168.com/</string>-->
+    <!--<string name="star_py_login_spa_url">http://g-login.starb168.com/</string>-->
+
+    <!--<string name="star_py_pay_pre_url">http://g-pay.starb168.com/</string>-->
+    <!--<string name="star_py_pay_spa_url">http://g-pay.starb168.com/</string>-->
+
+    <!--<string name="star_py_cs_pre_url">http://g-cs.starb168.com/</string>-->
+    <!--<string name="star_py_cs_spa_url">http://g-cs.starb168.com/</string>-->
+
+    <!--&lt;!&ndash;平台CND的主域名：autocdn-palt.starb168.com&ndash;&gt;-->
+    <!--&lt;!&ndash;备用域名：autocdn-paltsl.starb168.com&ndash;&gt;-->
+    <!--&lt;!&ndash;http://g-autocdn-palt.starb168.com/g-gamecode&ndash;&gt;-->
+    <!--<string name="star_py_cdn_pre_url">http://g-autocdn-paltslave.starb168.com/g-gamecode/</string>-->
+    <!--<string name="star_py_cdn_spa_url">http://g-autocdn-paltslave.starb168.com/g-gamecode/</string>-->
+
+    <!--<string name="star_pay_third_method">dynamic_change</string>-->
+    <!--<string name="star_cs_method">player_entrance</string>-->
+
+    <!--&lt;!&ndash;<data android:scheme="starpy" android:host="@string/star_game_code"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<scheme>://<host>:<port>[<path>|<pathPrefix>|<pathPattern>]&ndash;&gt;-->
+    <!--<string name="star_android_scheme">starpy</string>-->
+
+</resources>
