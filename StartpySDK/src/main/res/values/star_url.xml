@@ -1,9 +1,7 @@
 <resources>
 
-    <string name="star_py_login_pre_url">http://testlogin.starb168.com/</string>
-    <string name="star_py_login_spa_url">http://testlogin.starb168.com/</string>
-    <!--<string name="star_py_login_pre_url">http://10.10.10.109:80801/login/</string>-->
-    <!--<string name="star_py_login_spa_url">http://10.10.10.109:8081/login/</string>-->
+    <string name="star_py_login_pre_url">http://login.starb168.com/</string>
+    <string name="star_py_login_spa_url">http://login.starb168.com/</string>
 
     <string name="star_py_pay_pre_url">http://pay.starb168.com/</string>
     <string name="star_py_pay_spa_url">http://pay.starb168.com/</string>
@@ -16,8 +14,8 @@
 
     <!--平台CND的主域名：autocdn-palt.starb168.com-->
     <!--备用域名：autocdn-paltsl.starb168.com-->
-    <string name="star_py_cdn_pre_url">http://autocdn-palt.starb16822.com/</string>
-    <string name="star_py_cdn_spa_url">http://autocdn-paltsl.starb16822.com/</string>
+    <string name="star_py_cdn_pre_url">http://autocdn-palt.starb168.com/</string>
+    <string name="star_py_cdn_spa_url">http://autocdn-paltsl.starb168.com/</string>
 
     <string name="star_pay_third_method">dynamic_change</string>
     <string name="star_cs_method">player_entrance</string>
