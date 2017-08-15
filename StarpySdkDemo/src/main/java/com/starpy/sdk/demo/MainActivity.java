@@ -2,22 +2,16 @@ package com.starpy.sdk.demo;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.core.base.utils.FileUtil;
 import com.core.base.utils.PL;
-import com.facebook.drawee.backends.pipeline.Fresco;
 import com.starpy.base.bean.SGameLanguage;
 import com.starpy.base.bean.SPayType;
 import com.starpy.base.utils.SLog;
-import com.starpy.base.utils.StarPyUtil;
 import com.starpy.data.login.ILoginCallBack;
 import com.starpy.data.login.response.SLoginResponse;
-import com.starpy.sdk.SWebViewDialog;
 import com.starpy.sdk.out.ISdkCallBack;
 import com.starpy.sdk.out.IStarpy;
 import com.starpy.sdk.out.StarpyFactory;
@@ -39,7 +33,6 @@ public class MainActivity extends Activity {
         csButton = (Button) findViewById(R.id.demo_cs);
         shareButton = (Button) findViewById(R.id.demo_share);
 
-        Fresco.initialize(this);
         SLog.enableInfo(true);
         SLog.enableDebug(true);
 
@@ -62,7 +55,7 @@ public class MainActivity extends Activity {
          * severCode 角色伺服器id
          * serverName 角色伺服器名称
          */
-        iStarpy.registerRoleInfo(this, "roleid_1", "%E9%A9%AC%E7%BA%A2%E5%86%9B", "rolelevel", "1", "serverName");
+        iStarpy.registerRoleInfo(this, "roleid_1", "roleName", "rolelevel", "1", "serverName");
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,14 +76,6 @@ public class MainActivity extends Activity {
                     }
                 });
 
-                String s = StarPyUtil.encryptDyUrl(getApplicationContext(),FileUtil.readAssetsTxtFile(getApplicationContext(),"s_sdk_config2.txt"));
-//
-                PL.i(s);
-
-                PL.i(StarPyUtil.decryptDyUrl(getApplicationContext(),s));
-                Resources resources = getResources();//获得res资源对象
-                Configuration config = resources.getConfiguration();//获得设置对象
-                PL.i("onConfigurationChanged:" + config.toString());
             }
         });
 
@@ -181,12 +166,7 @@ public class MainActivity extends Activity {
                  * level：游戏等级
                  * vipLevel：vip等级，没有就写""
                  */
-//                iStarpy.openWebview(MainActivity.this,"roleLevel","10");
-                SWebViewDialog sWebViewDialog = new SWebViewDialog(MainActivity.this, com.starpy.sdk.R.style.StarDialogTheme);
-
-                sWebViewDialog.setWebUrl("https://line.naver.jp/R/msg/text/?《六龍御天》入駐新服S41，直升貴族50d%0ahttps://6king.efuntw.com/page/new_39852.html");
-
-                sWebViewDialog.show();
+                iStarpy.openWebview(MainActivity.this,"roleLevel","10");
             }
         });
 
