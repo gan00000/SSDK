@@ -7,9 +7,9 @@
 
     <LinearLayout
         android:layout_width="@dimen/px_900"
-        android:layout_height="@dimen/px_620"
+        android:layout_height="@dimen/px_600"
         android:layout_centerInParent="true"
-        android:background="@mipmap/v2_login_bg"
+        android:background="@drawable/v2_login_bg"
         android:orientation="vertical">
 
         <LinearLayout
@@ -47,7 +47,7 @@
                     android:layout_width="@dimen/px_400"
                     android:layout_height="match_parent"
                     android:id="@+id/v2_bg_title_login_iv"
-                    android:src="@mipmap/v2_bg_title_login"/>
+                    android:src="@drawable/v2_bg_title_login"/>
 
 
             </LinearLayout>
@@ -62,7 +62,7 @@
             <LinearLayout
                 android:layout_width="@dimen/px_600"
                 android:layout_height="@dimen/px_80"
-                android:background="@mipmap/v2_editetext_view_bg"
+                android:background="@drawable/v2_editetext_view_bg"
                 android:gravity="center_vertical"
                 android:paddingLeft="@dimen/px_30"
                 android:paddingRight="@dimen/px_30"
@@ -71,7 +71,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@mipmap/v2_bg_icon_account"/>
+                    android:background="@drawable/v2_bg_icon_account"/>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                 android:layout_width="@dimen/px_600"
                 android:layout_height="@dimen/px_80"
                 android:layout_marginTop="@dimen/px_15"
-                android:background="@mipmap/v2_editetext_view_bg"
+                android:background="@drawable/v2_editetext_view_bg"
                 android:gravity="center_vertical"
                 android:paddingLeft="@dimen/px_30"
                 android:paddingRight="@dimen/px_15"
@@ -98,7 +98,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@mipmap/v2_bg_icon_pwd"/>
+                    android:background="@drawable/v2_bg_icon_pwd"/>
 
                 <EditText
                     android:layout_width="0dp"
@@ -168,7 +168,7 @@
                 android:layout_width="@dimen/px_420"
                 android:layout_height="@dimen/px_60"
                 android:id="@+id/v2_member_btn_login"
-                android:background="@mipmap/v2_member_btn_login" />
+                android:background="@drawable/v2_member_btn_login" />
         </LinearLayout>
 
         <LinearLayout
@@ -186,7 +186,7 @@
                 >
 
 
-                <TextView
+                <!--<TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/py_login_go_changePwd_v2"
@@ -194,7 +194,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="@dimen/sp_20"
                     android:textStyle="bold"
-                    />
+                    />-->
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -207,7 +207,7 @@
                     android:layout_marginLeft="@dimen/px_20"
                     />
 
-                <TextView
+               <!-- <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/py_login_go_bindUnique_v2"
@@ -227,7 +227,7 @@
                     android:textSize="@dimen/sp_20"
                     android:textStyle="bold"
                     android:layout_marginLeft="@dimen/px_20"
-                    />
+                    />-->
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -240,11 +240,22 @@
                     android:layout_marginLeft="@dimen/px_20"
                     />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/py_login_go_account_center"
+                    android:text="@string/py_account_center"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp_20"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/px_20"
+                    />
+
             </LinearLayout>
 
         </LinearLayout>
 
-        <LinearLayout
+       <!-- <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -314,7 +325,7 @@
 
             </LinearLayout>
 
-        </LinearLayout>
+        </LinearLayout>-->
 
         <RelativeLayout
             android:layout_width="match_parent"

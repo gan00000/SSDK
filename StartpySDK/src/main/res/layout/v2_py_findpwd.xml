@@ -9,7 +9,7 @@
         android:layout_width="@dimen/px_900"
         android:layout_height="@dimen/px_600"
         android:layout_centerInParent="true"
-        android:background="@mipmap/v2_login_bg"
+        android:background="@drawable/v2_login_bg"
         android:orientation="vertical">
 
         <LinearLayout
@@ -32,7 +32,7 @@
                 <ImageView
                     android:layout_width="@dimen/px_400"
                     android:layout_height="match_parent"
-                    android:src="@mipmap/v2_bg_title_forgot_pwd"/>
+                    android:src="@drawable/v2_bg_title_forgot_pwd"/>
 
 
             </LinearLayout>
@@ -47,7 +47,7 @@
             <LinearLayout
                 android:layout_width="@dimen/px_600"
                 android:layout_height="@dimen/px_80"
-                android:background="@mipmap/v2_editetext_view_bg"
+                android:background="@drawable/v2_editetext_view_bg"
                 android:gravity="center_vertical"
                 android:paddingLeft="@dimen/px_30"
                 android:paddingRight="@dimen/px_30"
@@ -56,7 +56,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@mipmap/v2_bg_icon_account"/>
+                    android:background="@drawable/v2_bg_icon_account"/>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                 android:layout_width="@dimen/px_600"
                 android:layout_height="@dimen/px_80"
                 android:layout_marginTop="@dimen/px_15"
-                android:background="@mipmap/v2_editetext_view_bg"
+                android:background="@drawable/v2_editetext_view_bg"
                 android:gravity="center_vertical"
                 android:paddingLeft="@dimen/px_30"
                 android:paddingRight="@dimen/px_30"
@@ -84,7 +84,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@mipmap/v2_bg_icon_email"/>
+                    android:background="@drawable/v2_bg_icon_email"/>
 
                 <EditText
                     android:layout_width="match_parent"
@@ -103,7 +103,7 @@
                 android:layout_width="@dimen/px_600"
                 android:layout_height="@dimen/px_80"
                 android:layout_marginTop="@dimen/px_15"
-                android:background="@mipmap/v2_editetext_view_bg"
+                android:background="@drawable/v2_editetext_view_bg"
                 android:gravity="center_vertical"
                 android:paddingLeft="@dimen/px_30"
                 android:paddingRight="@dimen/px_15"
@@ -112,7 +112,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@mipmap/v2_bg_icon_pwd"/>
+                    android:background="@drawable/v2_bg_icon_pwd"/>
 
                 <EditText
                     android:layout_width="0dp"
@@ -152,7 +152,7 @@
                 android:layout_width="@dimen/px_420"
                 android:layout_height="@dimen/px_60"
                 android:id="@+id/v2_findpwd_btn"
-                android:background="@mipmap/v2_btn_send_new_pwd" />
+                android:background="@drawable/v2_btn_send_new_pwd" />
         </LinearLayout>
 
     </LinearLayout>

@@ -21,7 +21,7 @@
             <ImageView
                 android:layout_width="@dimen/px_400"
                 android:layout_height="@dimen/px_240"
-                android:src="@mipmap/v2_login_fb"
+                android:src="@drawable/v2_login_fb"
                 android:scaleType="centerCrop"
                 android:id="@+id/v2_login_fb_iv"
                 />
@@ -29,7 +29,7 @@
             <ImageView
                 android:layout_width="@dimen/px_400"
                 android:layout_height="@dimen/px_240"
-                android:src="@mipmap/v2_login_starpy"
+                android:src="@drawable/v2_login_starpy"
                 android:scaleType="centerCrop"
                 android:id="@+id/v2_login_py_iv"
                 />
@@ -43,7 +43,7 @@
             <ImageView
                 android:layout_width="@dimen/px_400"
                 android:layout_height="@dimen/px_240"
-                android:src="@mipmap/v2_login_mac"
+                android:src="@drawable/v2_login_mac"
                 android:scaleType="centerCrop"
                 android:id="@+id/v2_login_mac_iv"
 
@@ -52,7 +52,7 @@
             <ImageView
                 android:layout_width="@dimen/px_400"
                 android:layout_height="@dimen/px_240"
-                android:src="@mipmap/v2_login_reg"
+                android:src="@drawable/v2_login_reg"
                 android:scaleType="centerCrop"
                 android:id="@+id/v2_login_reg_iv"
                 />

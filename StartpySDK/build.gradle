@@ -25,6 +25,5 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':AppCompat')
-    compile project(':facebookfresco')
     compile project(':facebook-android-sdk-4.25')
 }

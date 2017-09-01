@@ -9,5 +9,5 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:src="@mipmap/v2_back_page" />
+        android:src="@drawable/v2_back_page" />
 </LinearLayout>

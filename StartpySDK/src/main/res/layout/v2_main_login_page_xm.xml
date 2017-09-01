@@ -21,37 +21,22 @@
             <ImageView
                 android:layout_width="@dimen/px_334"
                 android:layout_height="@dimen/px_300"
-                android:src="@mipmap/btn_xm_google_login"
+                android:src="@drawable/btn_xm_google_login"
                 android:scaleType="centerCrop"
                 android:id="@+id/btn_xm_google_login_iv"
                 />
 
-            <ImageView
+            <!--<ImageView
                 android:layout_width="@dimen/px_334"
                 android:layout_height="@dimen/px_300"
-                android:src="@mipmap/btn_xm_facebook_login"
+                android:src="@drawable/btn_xm_facebook_login"
                 android:scaleType="centerCrop"
                 android:id="@+id/btn_xm_facebook_login_iv"
-                />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
+                />-->
             <ImageView
                 android:layout_width="@dimen/px_334"
                 android:layout_height="@dimen/px_300"
-                android:src="@mipmap/btn_xm_member_register"
-                android:scaleType="centerCrop"
-                android:id="@+id/btn_xm_member_register_iv"
-                />
-
-            <ImageView
-                android:layout_width="@dimen/px_334"
-                android:layout_height="@dimen/px_300"
-                android:src="@mipmap/btn_xm_member_login"
+                android:src="@drawable/btn_xm_member_login"
                 android:scaleType="centerCrop"
                 android:id="@+id/btn_xm_member_login_iv"
 
@@ -63,10 +48,43 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--<ImageView
+                android:layout_width="@dimen/px_334"
+                android:layout_height="@dimen/px_300"
+                android:src="@drawable/btn_xm_member_register"
+                android:scaleType="centerCrop"
+                android:id="@+id/btn_xm_member_register_iv"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/px_334"
+                android:layout_height="@dimen/px_300"
+                android:src="@drawable/btn_xm_member_login"
+                android:scaleType="centerCrop"
+                android:id="@+id/btn_xm_member_login_iv"
+
+                />-->
+
             <ImageView
                 android:layout_width="@dimen/px_334"
                 android:layout_height="@dimen/px_600"
-                android:src="@mipmap/btn_xm_guest_login"
+                android:src="@drawable/btn_xm_fb_login"
+                android:scaleType="centerCrop"
+                android:id="@+id/btn_xm_facebook_login_iv"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/px_334"
+                android:layout_height="@dimen/px_600"
+                android:src="@drawable/btn_xm_guest_login"
                 android:scaleType="centerCrop"
                 android:id="@+id/btn_xm_guest_login_iv"
 

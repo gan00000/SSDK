@@ -20,7 +20,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/px_100"
-            android:background="@mipmap/v2_bg_toolbar"
+            android:background="@drawable/v2_bg_toolbar"
             >
 
             <LinearLayout android:layout_width="@dimen/px_100"
@@ -33,7 +33,7 @@ s
                 <ImageView android:layout_width="@dimen/px_40"
                     android:layout_height="@dimen/px_40"
                     android:layout_marginLeft="@dimen/px_10"
-                    android:src="@mipmap/py_back_button"
+                    android:src="@drawable/py_back_button"
 
                     />
             </LinearLayout>

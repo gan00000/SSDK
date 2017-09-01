@@ -8,18 +8,19 @@
 
     <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/plat_menu_item_image_view"
+        android:layout_width="@dimen/px_110"
+        android:layout_height="@dimen/px_110"
         android:layout_gravity="center"
-        android:layout_width="@dimen/px_90"
-        android:layout_height="@dimen/px_90"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:placeholderImage="@drawable/plat_menu_starpy" />
 
-        fresco:placeholderImage="@drawable/plat_menu_starpy"
-        />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/px_10"
+        android:layout_marginBottom="@dimen/px_10"
         android:gravity="center"
         android:layout_gravity="center"
+        android:textSize="@dimen/sp_22"
         android:textColor="@android:color/white"
         android:id="@+id/plat_menu_item_title_view"
         android:text="aaaaaa"/>

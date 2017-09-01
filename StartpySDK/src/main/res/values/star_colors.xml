@@ -23,11 +23,25 @@
     <color name="e_344E7E">#344E7E</color>
     <color name="e_7a87a4">#7a87a4</color>
 
+    <color name="e_e68f33">#e68f33</color>
+    <color name="e_bcbcbc">#bcbcbc</color>
+
     <color name="e_a3000000">#a3000000</color>
     <color name="c_a3ffffff">#E6ffffff</color>
     <color name="e_f0f0f0">#f0f0f0</color>
+    <color name="e_ff0000">#ff0000</color>
 
     <color name="e_66000000">#66000000</color>
+    <color name="e_33ffffff">#33ffffff</color>
+    <color name="e_33000000">#33000000</color>
+    <color name="e_f2ad41">#f2ad41</color>
+    <color name="e_a6000000">#a6000000</color>
+
+    <color name="swap_holo_green_bright">#48B94A</color>
+
+    <color name="swap_holo_bule_bright">#4996e5</color>
+
+    <color name="swap_holo_pure_bright">#d066b1</color>
 </resources>
 
     <!--透明度百分比-开头字母-->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <!--<include layout="@layout/py_title_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/px_80"-->
+            <!--android:visibility="gone"/>-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s_base_web_view_title_content">
+
+        </RelativeLayout>
+
+       <include layout="@layout/s_base_web_view"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
