@@ -851,7 +851,7 @@ public final class FacebookSdk {
     }
 
     /**
-     * Gets the flag used by {@link com.facebook.appevents.AppEventsLogger}
+     * Gets the flag used by {@link AppEventsLogger}
      * @return the auto logging events flag for the application
      */
     public static boolean getAutoLogAppEventsEnabled() {
@@ -861,7 +861,7 @@ public final class FacebookSdk {
 
     /**
      * Sets the auto logging events flag for the application
-     * {@link com.facebook.appevents.AppEventsLogger}
+     * {@link AppEventsLogger}
      * @param flag true or false
      */
     public static void setAutoLogAppEventsEnabled(boolean flag) {

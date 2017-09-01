@@ -84,7 +84,7 @@ public class AppInviteDialog
     }
 
     /**
-     * Helper to show the provided {@link com.facebook.share.model.AppInviteContent} using
+     * Helper to show the provided {@link AppInviteContent} using
      * the provided Activity. No callback will be invoked.
      *
      * @param activity          Activity to use to share the provided content
@@ -98,7 +98,7 @@ public class AppInviteDialog
     }
 
     /**
-     * Helper to show the provided {@link com.facebook.share.model.AppInviteContent} using
+     * Helper to show the provided {@link AppInviteContent} using
      * the provided Fragment. No callback will be invoked.
      *
      * @param fragment          android.support.v4.app.Fragment to use to share the provided content
@@ -111,7 +111,7 @@ public class AppInviteDialog
     }
 
     /**
-     * Helper to show the provided {@link com.facebook.share.model.AppInviteContent} using
+     * Helper to show the provided {@link AppInviteContent} using
      * the provided Fragment. No callback will be invoked.
      *
      * @param fragment          android.app.Fragment to use to share the provided content

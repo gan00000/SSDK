@@ -63,7 +63,7 @@ public abstract class ShareContent<P extends ShareContent, E extends ShareConten
      * <p/>
      * See documentation for <a href="https://developers.facebook.com/docs/applinks/">App Links</a>.
      *
-     * @return {@link android.net.Uri} representation of the content link.
+     * @return {@link Uri} representation of the content link.
      */
     @Nullable
     public Uri getContentUrl() {
@@ -77,7 +77,7 @@ public abstract class ShareContent<P extends ShareContent, E extends ShareConten
      * <a href="https://developers.facebook.com/docs/graph-api/reference/user/taggable_friends">
      * Taggable Friends</a>.
      *
-     * @return {@link java.util.List} of Ids for people to tag.
+     * @return {@link List} of Ids for people to tag.
      */
     @Nullable
     public List<String> getPeopleIds() {
@@ -134,7 +134,7 @@ public abstract class ShareContent<P extends ShareContent, E extends ShareConten
     }
 
     /**
-     * Abstract builder for {@link com.facebook.share.model.ShareContent}
+     * Abstract builder for {@link ShareContent}
      */
     public abstract static class Builder<P extends ShareContent, E extends Builder>
             implements ShareModelBuilder<P, E> {
@@ -147,7 +147,7 @@ public abstract class ShareContent<P extends ShareContent, E extends ShareConten
         /**
          * Set the URL for the content being shared.
          *
-         * @param contentUrl {@link android.net.Uri} representation of the content link.
+         * @param contentUrl {@link Uri} representation of the content link.
          * @return The builder.
          */
         public E setContentUrl(@Nullable final Uri contentUrl) {
@@ -158,7 +158,7 @@ public abstract class ShareContent<P extends ShareContent, E extends ShareConten
         /**
          * Set the list of Ids for taggable people to tag with this content.
          *
-         * @param peopleIds {@link java.util.List} of Ids for people to tag.
+         * @param peopleIds {@link List} of Ids for people to tag.
          * @return The builder.
          */
         public E setPeopleIds(@Nullable final List<String> peopleIds) {

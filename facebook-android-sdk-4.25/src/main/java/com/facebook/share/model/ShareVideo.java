@@ -28,7 +28,7 @@ import android.support.annotation.Nullable;
 /**
  * Describes a video for sharing.
  *
- * Use {@link ShareVideo.Builder} to create instances
+ * Use {@link Builder} to create instances
  */
 public final class ShareVideo extends ShareMedia {
     private final Uri localUrl;
@@ -45,7 +45,7 @@ public final class ShareVideo extends ShareMedia {
 
     /**
      * This method supplies the URL to locate the video.
-     * @return {@link android.net.Uri} that points to the location of the video on disk.
+     * @return {@link Uri} that points to the location of the video on disk.
      */
     @Nullable
     public Uri getLocalUrl() {
@@ -61,8 +61,8 @@ public final class ShareVideo extends ShareMedia {
         out.writeParcelable(this.localUrl, 0);
     }
 
-    public static final Parcelable.Creator<ShareVideo> CREATOR =
-        new Parcelable.Creator<ShareVideo>() {
+    public static final Creator<ShareVideo> CREATOR =
+        new Creator<ShareVideo>() {
 
             @Override
             public ShareVideo createFromParcel(final Parcel source) {
@@ -81,14 +81,14 @@ public final class ShareVideo extends ShareMedia {
     }
 
     /**
-     * Builder for the {@link com.facebook.share.model.ShareVideo} class.
+     * Builder for the {@link ShareVideo} class.
      */
     public static final class Builder extends ShareMedia.Builder<ShareVideo, Builder> {
         private Uri localUrl;
 
         /**
          * Sets the URL to locate the video.
-         * @param localUrl {@link android.net.Uri} that points to the location of the video on disk.
+         * @param localUrl {@link Uri} that points to the location of the video on disk.
          * @return The builder.
          */
         public Builder setLocalUrl(@Nullable final Uri localUrl) {

@@ -103,8 +103,8 @@ public class ShareFeedContent
     }
 
     @SuppressWarnings("unused")
-    public static final Parcelable.Creator<ShareFeedContent> CREATOR =
-            new Parcelable.Creator<ShareFeedContent>() {
+    public static final Creator<ShareFeedContent> CREATOR =
+            new Creator<ShareFeedContent>() {
                 public ShareFeedContent createFromParcel(final Parcel in) {
                     return new ShareFeedContent(in);
                 }
@@ -127,37 +127,37 @@ public class ShareFeedContent
         private String picture;
         private String mediaSource;
 
-        public ShareFeedContent.Builder setToId(String toId) {
+        public Builder setToId(String toId) {
             this.toId = toId;
             return this;
         }
 
-        public ShareFeedContent.Builder setLink(String link) {
+        public Builder setLink(String link) {
             this.link = link;
             return this;
         }
 
-        public ShareFeedContent.Builder setLinkName(String linkName) {
+        public Builder setLinkName(String linkName) {
             this.linkName = linkName;
             return this;
         }
 
-        public ShareFeedContent.Builder setLinkCaption(String linkCaption) {
+        public Builder setLinkCaption(String linkCaption) {
             this.linkCaption = linkCaption;
             return this;
         }
 
-        public ShareFeedContent.Builder setLinkDescription(String linkDescription) {
+        public Builder setLinkDescription(String linkDescription) {
             this.linkDescription = linkDescription;
             return this;
         }
 
-        public ShareFeedContent.Builder setPicture(String picture) {
+        public Builder setPicture(String picture) {
             this.picture = picture;
             return this;
         }
 
-        public ShareFeedContent.Builder setMediaSource(String mediaSource) {
+        public Builder setMediaSource(String mediaSource) {
             this.mediaSource = mediaSource;
             return this;
         }

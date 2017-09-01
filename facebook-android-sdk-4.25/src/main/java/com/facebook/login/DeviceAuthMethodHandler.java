@@ -118,8 +118,8 @@ class DeviceAuthMethodHandler extends LoginMethodHandler {
         super.writeToParcel(dest, flags);
     }
 
-    public static final Parcelable.Creator<DeviceAuthMethodHandler> CREATOR =
-            new Parcelable.Creator() {
+    public static final Creator<DeviceAuthMethodHandler> CREATOR =
+            new Creator() {
 
                 @Override
                 public DeviceAuthMethodHandler createFromParcel(Parcel source) {

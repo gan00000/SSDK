@@ -691,7 +691,7 @@ public class WebDialog extends Dialog {
             return parameters;
         }
 
-        public WebDialog.OnCompleteListener getListener() {
+        public OnCompleteListener getListener() {
             return listener;
         }
 

@@ -32,7 +32,7 @@ import java.util.List;
 /**
  * Describes a photo for sharing.
  *
- * Use {@link SharePhoto.Builder} to build instances
+ * Use {@link Builder} to build instances
  */
 public final class SharePhoto extends ShareMedia {
     private final Bitmap bitmap;
@@ -58,7 +58,7 @@ public final class SharePhoto extends ShareMedia {
 
     /**
      * If the photo is resident in memory, this method supplies the data.
-     * @return {@link android.graphics.Bitmap} representation of the photo.
+     * @return {@link Bitmap} representation of the photo.
      */
     @Nullable
     public Bitmap getBitmap() {
@@ -67,7 +67,7 @@ public final class SharePhoto extends ShareMedia {
 
     /**
      * The URL to the photo.
-     * @return {@link android.net.Uri} that points to a network location or the location of the
+     * @return {@link Uri} that points to a network location or the location of the
      * photo on disk.
      */
     @Nullable
@@ -105,8 +105,8 @@ public final class SharePhoto extends ShareMedia {
         out.writeString(caption);
     }
 
-    public static final Parcelable.Creator<SharePhoto> CREATOR =
-            new Parcelable.Creator<SharePhoto>() {
+    public static final Creator<SharePhoto> CREATOR =
+            new Creator<SharePhoto>() {
 
                 @Override
                 public SharePhoto createFromParcel(final Parcel source) {
@@ -125,7 +125,7 @@ public final class SharePhoto extends ShareMedia {
     }
 
     /**
-     * Builder for the {@link com.facebook.share.model.SharePhoto} class.
+     * Builder for the {@link SharePhoto} class.
      */
     public static final class Builder extends ShareMedia.Builder<SharePhoto, Builder> {
         private Bitmap bitmap;
@@ -135,7 +135,7 @@ public final class SharePhoto extends ShareMedia {
 
         /**
          * Sets the bitmap representation of the photo.
-         * @param bitmap {@link android.graphics.Bitmap} representation of the photo.
+         * @param bitmap {@link Bitmap} representation of the photo.
          * @return The builder.
          */
         public Builder setBitmap(@Nullable final Bitmap bitmap) {
@@ -145,7 +145,7 @@ public final class SharePhoto extends ShareMedia {
 
         /**
          * Sets the URL to the photo.
-         * @param imageUrl {@link android.net.Uri} that points to a network location or the location
+         * @param imageUrl {@link Uri} that points to a network location or the location
          *                                        of the photo on disk.
          * @return The builder.
          */
@@ -169,7 +169,7 @@ public final class SharePhoto extends ShareMedia {
          * Sets the user generated caption for the photo. Note that the 'caption' must come from
          * the user, as pre-filled content is forbidden by the Platform Policies (2.3).
          *
-         * @param caption {@link java.lang.String} of a {@link com.facebook.share.model.SharePhoto}
+         * @param caption {@link String} of a {@link SharePhoto}
          * @return The builder.
          */
         public Builder setCaption(@Nullable final String caption) {

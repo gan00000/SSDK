@@ -283,8 +283,8 @@ public class DeviceShareDialogFragment extends DialogFragment {
         }
 
         @SuppressWarnings("unused")
-        public static final Parcelable.Creator<RequestState> CREATOR =
-                new Parcelable.Creator<RequestState>() {
+        public static final Creator<RequestState> CREATOR =
+                new Creator<RequestState>() {
                     @Override
                     public RequestState createFromParcel(Parcel in) {
                         return new RequestState(in);

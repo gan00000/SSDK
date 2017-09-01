@@ -56,7 +56,7 @@ public final class MessageDialog
     private boolean shouldFailOnDataError = false;
 
     /**
-     * Helper to show the provided {@link com.facebook.share.model.ShareContent} using the provided
+     * Helper to show the provided {@link ShareContent} using the provided
      * Activity. No callback will be invoked.
      *
      * @param activity Activity to use to send the provided content
@@ -69,7 +69,7 @@ public final class MessageDialog
     }
 
     /**
-     * Helper to show the provided {@link com.facebook.share.model.ShareContent} using the provided
+     * Helper to show the provided {@link ShareContent} using the provided
      * Fragment. No callback will be invoked.
      *
      * @param fragment android.support.v4.app.Fragment to use to send the provided content
@@ -82,7 +82,7 @@ public final class MessageDialog
     }
 
     /**
-     * Helper to show the provided {@link com.facebook.share.model.ShareContent} using the provided
+     * Helper to show the provided {@link ShareContent} using the provided
      * Fragment. No callback will be invoked.
      *
      * @param fragment android.app.Fragment to use to send the provided content
@@ -102,9 +102,9 @@ public final class MessageDialog
 
     /**
      * Indicates whether it is possible to show the dialog for
-     * {@link com.facebook.share.model.ShareContent} of the specified type.
+     * {@link ShareContent} of the specified type.
      *
-     * @param contentType Class of the intended {@link com.facebook.share.model.ShareContent} to
+     * @param contentType Class of the intended {@link ShareContent} to
      *                    send.
      * @return True if the specified content type can be shown via the dialog
      */

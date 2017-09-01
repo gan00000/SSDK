@@ -238,8 +238,8 @@ public class CustomTabLoginMethodHandler extends WebLoginMethodHandler {
         dest.writeString(expectedChallenge);
     }
 
-    public static final Parcelable.Creator<CustomTabLoginMethodHandler> CREATOR =
-            new Parcelable.Creator() {
+    public static final Creator<CustomTabLoginMethodHandler> CREATOR =
+            new Creator() {
 
                 @Override
                 public CustomTabLoginMethodHandler createFromParcel(Parcel source) {

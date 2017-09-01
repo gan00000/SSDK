@@ -70,8 +70,8 @@ class KatanaProxyLoginMethodHandler extends NativeAppLoginMethodHandler {
         super.writeToParcel(dest, flags);
     }
 
-    public static final Parcelable.Creator<KatanaProxyLoginMethodHandler> CREATOR =
-            new Parcelable.Creator() {
+    public static final Creator<KatanaProxyLoginMethodHandler> CREATOR =
+            new Creator() {
 
                 @Override
                 public KatanaProxyLoginMethodHandler createFromParcel(Parcel source) {

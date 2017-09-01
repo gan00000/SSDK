@@ -26,7 +26,7 @@ import android.support.annotation.Nullable;
 /**
  * Describes an Open Graph action
  * <p/>
- * Use {@link ShareOpenGraphAction.Builder} to create instances
+ * Use {@link Builder} to create instances
  * <p/>
  * See the documentation for
  * <a href="https://developers.facebook.com/docs/opengraph/actions/">Open Graph Actions</a>.
@@ -65,7 +65,7 @@ public final class ShareOpenGraphAction
             };
 
     /**
-     * Builder for the {@link com.facebook.share.model.ShareOpenGraphAction} interface.
+     * Builder for the {@link ShareOpenGraphAction} interface.
      */
     public static final class Builder
             extends ShareOpenGraphValueContainer.Builder<ShareOpenGraphAction, Builder> {

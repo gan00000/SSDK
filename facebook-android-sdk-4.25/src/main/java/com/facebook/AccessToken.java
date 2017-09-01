@@ -603,7 +603,7 @@ public final class AccessToken implements Parcelable {
         dest.writeString(userId);
     }
 
-    public static final Parcelable.Creator<AccessToken> CREATOR = new Parcelable.Creator() {
+    public static final Creator<AccessToken> CREATOR = new Creator() {
 
         @Override
         public AccessToken createFromParcel(Parcel source) {

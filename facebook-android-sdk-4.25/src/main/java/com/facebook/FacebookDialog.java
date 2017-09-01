@@ -62,7 +62,7 @@ public interface FacebookDialog<CONTENT, RESULT> {
      * @param callback Callback to be called upon dialog completion
      * @param requestCode  The request code to use, this should be outside of the range of those
      *                     reserved for the Facebook SDK
-     *                     {@link com.facebook.FacebookSdk#isFacebookRequestCode(int)}.
+     *                     {@link FacebookSdk#isFacebookRequestCode(int)}.
      */
     public void registerCallback(
             final CallbackManager callbackManager,

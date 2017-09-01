@@ -28,7 +28,7 @@ import android.util.Log;
 /**
  * Describes link content to be shared.
  *
- * Use {@link ShareLinkContent.Builder} to build instances.
+ * Use {@link Builder} to build instances.
  *
  * See documentation for <a href="https://developers.facebook.com/docs/sharing/best-practices">best practices</a>.
  */

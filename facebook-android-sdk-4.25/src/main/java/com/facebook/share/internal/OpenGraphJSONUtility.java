@@ -46,8 +46,8 @@ public final class OpenGraphJSONUtility {
      * NOTE: All images are removed from the JSON representation and must be added to the builder
      * separately.
      *
-     * @param action {@link com.facebook.share.model.ShareOpenGraphAction} to be converted.
-     * @return {@link org.json.JSONObject} representing the action.
+     * @param action {@link ShareOpenGraphAction} to be converted.
+     * @return {@link JSONObject} representing the action.
      * @throws JSONException
      */
     public static JSONObject toJSONObject(

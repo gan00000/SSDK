@@ -446,8 +446,8 @@ public final class FacebookRequestError implements Parcelable {
         out.writeString(this.errorUserMessage);
     }
 
-    public static final Parcelable.Creator<FacebookRequestError> CREATOR
-            = new Parcelable.Creator<FacebookRequestError>() {
+    public static final Creator<FacebookRequestError> CREATOR
+            = new Creator<FacebookRequestError>() {
         public FacebookRequestError createFromParcel(Parcel in) {
             return new FacebookRequestError(in);
         }

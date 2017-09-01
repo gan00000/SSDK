@@ -182,8 +182,8 @@ class GetTokenLoginMethodHandler extends LoginMethodHandler {
         super.writeToParcel(dest, flags);
     }
 
-    public static final Parcelable.Creator<GetTokenLoginMethodHandler> CREATOR =
-            new Parcelable.Creator() {
+    public static final Creator<GetTokenLoginMethodHandler> CREATOR =
+            new Creator() {
 
         @Override
         public GetTokenLoginMethodHandler createFromParcel(Parcel source) {

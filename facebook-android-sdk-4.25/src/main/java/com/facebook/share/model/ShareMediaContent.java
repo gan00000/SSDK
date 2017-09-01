@@ -47,7 +47,7 @@ public final class ShareMediaContent
     /**
      * Media to be shared.
      *
-     * @return {@link java.util.List} of {@link ShareMedia}s.
+     * @return {@link List} of {@link ShareMedia}s.
      */
     @Nullable
     public List<ShareMedia> getMedia() {
@@ -83,7 +83,7 @@ public final class ShareMediaContent
         /**
          * Adds a medium to the content.
          *
-         * @param medium {@link com.facebook.share.model.ShareMedia} to add.
+         * @param medium {@link ShareMedia} to add.
          * @return The builder.
          */
         public Builder addMedium(@Nullable final ShareMedia medium) {
@@ -105,7 +105,7 @@ public final class ShareMediaContent
         /**
          * Adds multiple media to the content.
          *
-         * @param media {@link java.util.List} of {@link com.facebook.share.model.ShareMedia}
+         * @param media {@link List} of {@link ShareMedia}
          *               to add.
          * @return The builder.
          */
@@ -136,7 +136,7 @@ public final class ShareMediaContent
         /**
          * Replaces the media for the builder.
          *
-         * @param media {@link java.util.List} of {@link com.facebook.share.model.ShareMedia}
+         * @param media {@link List} of {@link ShareMedia}
          *   to add.
          * @return The builder.
          */

@@ -158,8 +158,8 @@ class WebViewLoginMethodHandler extends WebLoginMethodHandler {
         dest.writeString(e2e);
     }
 
-    public static final Parcelable.Creator<WebViewLoginMethodHandler> CREATOR =
-            new Parcelable.Creator() {
+    public static final Creator<WebViewLoginMethodHandler> CREATOR =
+            new Creator() {
 
                 @Override
                 public WebViewLoginMethodHandler createFromParcel(Parcel source) {

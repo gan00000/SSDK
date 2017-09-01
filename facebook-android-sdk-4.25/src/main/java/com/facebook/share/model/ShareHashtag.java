@@ -25,7 +25,7 @@ import android.os.Parcel;
 /**
  * Describes a hashtag for sharing.
  *
- * Use {@link ShareHashtag.Builder} to build instances
+ * Use {@link Builder} to build instances
  */
 public class ShareHashtag implements ShareModel {
 
@@ -68,7 +68,7 @@ public class ShareHashtag implements ShareModel {
     };
 
     /**
-     * Builder for the {@link com.facebook.share.model.ShareHashtag} class.
+     * Builder for the {@link ShareHashtag} class.
      */
     public static class Builder implements ShareModelBuilder<ShareHashtag, Builder> {
 

@@ -31,7 +31,7 @@ import java.util.Set;
 /**
  * Provides an abstract class to contain Open Graph values.
  *
- * Use {@link ShareOpenGraphValueContainer.Builder} to create instances
+ * Use {@link Builder} to create instances
  */
 public abstract class ShareOpenGraphValueContainer
         <P extends ShareOpenGraphValueContainer, E extends ShareOpenGraphValueContainer.Builder>
@@ -244,7 +244,7 @@ public abstract class ShareOpenGraphValueContainer
     }
 
     /**
-     * Abstract builder for the {@link com.facebook.share.model.ShareOpenGraphValueContainer} class.
+     * Abstract builder for the {@link ShareOpenGraphValueContainer} class.
      */
     public abstract static class Builder
             <P extends ShareOpenGraphValueContainer, E extends Builder>

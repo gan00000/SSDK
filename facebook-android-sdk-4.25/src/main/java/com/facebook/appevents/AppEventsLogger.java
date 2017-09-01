@@ -247,7 +247,7 @@ public class AppEventsLogger {
      * long-running Activity of your app.
      * <p/>
      * Use this method if your application ID is stored in application metadata, otherwise see
-     * {@link AppEventsLogger#activateApp(android.content.Context, String)}.
+     * {@link AppEventsLogger#activateApp(Context, String)}.
      *
      * @param context Used to access the applicationId and the attributionId for non-authenticated
      *                users.
@@ -321,7 +321,7 @@ public class AppEventsLogger {
      * inactive, typically in the onPause() method of each long-running Activity of your app.
      *
      * Use this method if your application ID is stored in application metadata, otherwise see
-     * {@link AppEventsLogger#deactivateApp(android.content.Context, String)}.
+     * {@link AppEventsLogger#deactivateApp(Context, String)}.
      *
      * @param context Used to access the applicationId and the attributionId for non-authenticated
      *                users.
@@ -703,7 +703,7 @@ public class AppEventsLogger {
                 // Log implicit push token event and flush logger immediately
                 logger.logEvent(AppEventsConstants.EVENT_NAME_PUSH_TOKEN_OBTAINED);
                 if (AppEventsLogger.getFlushBehavior() !=
-                        AppEventsLogger.FlushBehavior.EXPLICIT_ONLY) {
+                        FlushBehavior.EXPLICIT_ONLY) {
                     logger.flush();
                 }
             }

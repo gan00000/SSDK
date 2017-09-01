@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * Describes photo content to be shared.
  *
- * Use {@link SharePhotoContent.Builder} to create instances
+ * Use {@link Builder} to create instances
  */
 public final class SharePhotoContent
         extends ShareContent<SharePhotoContent, SharePhotoContent.Builder> {
@@ -49,7 +49,7 @@ public final class SharePhotoContent
 
     /**
      * Photos to be shared.
-     * @return {@link java.util.List} of {@link SharePhoto}s.
+     * @return {@link List} of {@link SharePhoto}s.
      */
     @Nullable
     public List<SharePhoto> getPhotos() {
@@ -84,7 +84,7 @@ public final class SharePhotoContent
 
         /**
          * Adds a photo to the content.
-         * @param photo {@link com.facebook.share.model.SharePhoto} to add.
+         * @param photo {@link SharePhoto} to add.
          * @return The builder.
          */
         public Builder addPhoto(@Nullable final SharePhoto photo) {
@@ -96,7 +96,7 @@ public final class SharePhotoContent
 
         /**
          * Adds multiple photos to the content.
-         * @param photos {@link java.util.List} of {@link com.facebook.share.model.SharePhoto}s
+         * @param photos {@link List} of {@link SharePhoto}s
          *                                      to add.
          * @return The builder.
          */
@@ -126,7 +126,7 @@ public final class SharePhotoContent
 
         /**
          * Replaces the photos for the builder.
-         * @param photos {@link java.util.List} of {@link com.facebook.share.model.SharePhoto}s to add.
+         * @param photos {@link List} of {@link SharePhoto}s to add.
          * @return The builder.
          */
         public Builder setPhotos(@Nullable final List<SharePhoto> photos) {

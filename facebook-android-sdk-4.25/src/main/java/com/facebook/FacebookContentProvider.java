@@ -38,7 +38,7 @@ import java.util.UUID;
  * <p>Implements a
  * <a href="http://developer.android.com/reference/android/content/ContentProvider.html">
  * ContentProvider</a> that can be used to provide binary attachments (e.g., images) to calls made
- * via {@link com.facebook.FacebookDialog}.
+ * via {@link FacebookDialog}.
  * <p/>
  * <p>Note that this ContentProvider is only necessary if an application wishes to attach images,
  * etc., that are stored in memory and do not have another way to be referenced by a content URI.
@@ -108,8 +108,8 @@ public class FacebookContentProvider extends ContentProvider {
     }
 
     @Override
-    public android.os.ParcelFileDescriptor openFile(android.net.Uri uri, java.lang.String mode)
-            throws java.io.FileNotFoundException {
+    public ParcelFileDescriptor openFile(Uri uri, String mode)
+            throws FileNotFoundException {
 
         Pair<UUID, String> callIdAndAttachmentName = parseCallIdAndAttachmentName(uri);
         if (callIdAndAttachmentName == null) {

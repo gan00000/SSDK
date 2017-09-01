@@ -408,7 +408,7 @@ public class LikeView extends FrameLayout {
     /**
      * Sets the parent Fragment which is hosting this LikeView. This allows the LikeView to be
      * embedded inside a Fragment, and will allow the fragment to receive the
-     * {@link Fragment#onActivityResult(int, int, android.content.Intent) onActivityResult}
+     * {@link Fragment#onActivityResult(int, int, Intent) onActivityResult}
      * call rather than the Activity, upon completion of Likes from this view.
      *
      * @param fragment android.support.v4.app.Fragment that is hosting the LikeView.
@@ -420,7 +420,7 @@ public class LikeView extends FrameLayout {
     /**
      * Sets the parent Fragment which is hosting this LikeView. This allows the LikeView to be
      * embedded inside a Fragment, and will allow the fragment to receive the
-     * {@link Fragment#onActivityResult(int, int, android.content.Intent) onActivityResult}
+     * {@link Fragment#onActivityResult(int, int, Intent) onActivityResult}
      * call rather than the Activity, upon completion of Likes from this view.
      *
      * @param fragment android.app.Fragment that is hosting the LikeView.

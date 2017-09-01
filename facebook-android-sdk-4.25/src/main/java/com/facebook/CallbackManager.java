@@ -40,12 +40,12 @@ public interface CallbackManager {
     public boolean onActivityResult(int requestCode, int resultCode, Intent data);
 
     /**
-     * The factory class for the {@link com.facebook.CallbackManager}.
+     * The factory class for the {@link CallbackManager}.
      */
     public static class Factory {
         /**
-         * Creates an instance of {@link com.facebook.CallbackManager}.
-         * @return an instance of {@link com.facebook.CallbackManager}.
+         * Creates an instance of {@link CallbackManager}.
+         * @return an instance of {@link CallbackManager}.
          */
         public static CallbackManager create() {
             return new CallbackManagerImpl();

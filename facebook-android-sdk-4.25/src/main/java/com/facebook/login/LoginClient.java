@@ -537,7 +537,7 @@ class LoginClient implements Parcelable {
             dest.writeString(deviceRedirectUriString);
         }
 
-        public static final Parcelable.Creator<Request> CREATOR = new Parcelable.Creator() {
+        public static final Creator<Request> CREATOR = new Creator() {
             @Override
             public Request createFromParcel(Parcel source) {
                 return new Request(source);
@@ -640,7 +640,7 @@ class LoginClient implements Parcelable {
             Utility.writeStringMapToParcel(dest, loggingExtras);
         }
 
-        public static final Parcelable.Creator<Result> CREATOR = new Parcelable.Creator() {
+        public static final Creator<Result> CREATOR = new Creator() {
             @Override
             public Result createFromParcel(Parcel source) {
                 return new Result(source);
@@ -680,7 +680,7 @@ class LoginClient implements Parcelable {
         Utility.writeStringMapToParcel(dest, loggingExtras);
     }
 
-    public static final Parcelable.Creator<LoginClient> CREATOR = new Parcelable.Creator() {
+    public static final Creator<LoginClient> CREATOR = new Creator() {
         @Override
         public LoginClient createFromParcel(Parcel source) {
             return new LoginClient(source);

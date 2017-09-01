@@ -27,7 +27,7 @@ import android.support.annotation.Nullable;
  * Provides the interface for video content to be shared.
  *
  * A general use builder is available in
- * {@link ShareVideoContent.Builder}.
+ * {@link Builder}.
  */
 public final class ShareVideoContent
         extends ShareContent<ShareVideoContent, ShareVideoContent.Builder>
@@ -119,7 +119,7 @@ public final class ShareVideoContent
     };
 
     /**
-     * Builder for the {@link com.facebook.share.model.ShareVideoContent} interface.
+     * Builder for the {@link ShareVideoContent} interface.
      */
     public static final class Builder extends ShareContent.Builder<ShareVideoContent, Builder> {
         private String contentDescription;
@@ -150,7 +150,7 @@ public final class ShareVideoContent
 
         /**
          * Sets the photo to be used as a preview for the video.
-         * @param previewPhoto Preview {@link com.facebook.share.model.SharePhoto} for the content.
+         * @param previewPhoto Preview {@link SharePhoto} for the content.
          * @return The builder.
          */
         public Builder setPreviewPhoto(@Nullable final SharePhoto previewPhoto) {
@@ -163,7 +163,7 @@ public final class ShareVideoContent
 
         /**
          * Sets the video to be shared.
-         * @param video {@link com.facebook.share.model.ShareVideo}
+         * @param video {@link ShareVideo}
          * @return The builder.
          */
         public Builder setVideo(@Nullable final ShareVideo video) {

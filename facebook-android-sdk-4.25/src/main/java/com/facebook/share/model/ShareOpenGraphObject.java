@@ -27,7 +27,7 @@ import com.facebook.internal.NativeProtocol;
 /**
  * Describes an Open Graph Object to be created.
  * <p/>
- * Use {@link ShareOpenGraphObject.Builder} to create instances
+ * Use {@link Builder} to create instances
  * <p/>
  * See the documentation for
  * <a href="https://developers.facebook.com/docs/opengraph/objects/">Open Graph Objects</a>.
@@ -56,7 +56,7 @@ public final class ShareOpenGraphObject extends
     };
 
     /**
-     * Builder for the {@link com.facebook.share.model.ShareOpenGraphObject} interface.
+     * Builder for the {@link ShareOpenGraphObject} interface.
      */
     public static final class Builder
             extends ShareOpenGraphValueContainer.Builder<ShareOpenGraphObject, Builder> {

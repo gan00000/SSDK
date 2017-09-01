@@ -476,7 +476,7 @@ public class GraphRequest {
      * @param callback    a callback that will be called when the request is completed to handle
      *                    success or error conditions, can be null
      * @return a Request that is ready to execute
-     * @throws java.io.FileNotFoundException if the file doesn't exist
+     * @throws FileNotFoundException if the file doesn't exist
      */
     public static GraphRequest newUploadPhotoRequest(
             AccessToken accessToken,
@@ -567,7 +567,7 @@ public class GraphRequest {
      * user associated with the active access token; otherwise the ID will represent the user logged
      * into the native Facebook app on the device. A `null` ID will be provided into the callback if
      * a) there is no native Facebook app, b) no one is logged into it, or c) the app has previously
-     * called {@link FacebookSdk#setLimitEventAndDataUsage(android.content.Context, boolean)} ;}
+     * called {@link FacebookSdk#setLimitEventAndDataUsage(Context, boolean)} ;}
      * with `true` for this user. <b>You must call this method from a background thread for it to
      * work properly.</b>
      *
@@ -651,7 +651,7 @@ public class GraphRequest {
      * user associated with the active access token; otherwise the ID will represent the user logged
      * into the native Facebook app on the device. A `null` ID will be provided into the callback if
      * a) there is no native Facebook app, b) no one is logged into it, or c) the app has previously
-     * called {@link FacebookSdk#setLimitEventAndDataUsage(android.content.Context, boolean)} with
+     * called {@link FacebookSdk#setLimitEventAndDataUsage(Context, boolean)} with
      * `true` for this user. <b>You must call this method from a background thread for it to work
      * properly.</b>
      *
@@ -2380,8 +2380,8 @@ public class GraphRequest {
         }
 
         @SuppressWarnings("unused")
-        public static final Parcelable.Creator<ParcelableResourceWithMimeType> CREATOR
-                = new Parcelable.Creator<ParcelableResourceWithMimeType>() {
+        public static final Creator<ParcelableResourceWithMimeType> CREATOR
+                = new Creator<ParcelableResourceWithMimeType>() {
             public ParcelableResourceWithMimeType createFromParcel(Parcel in) {
                 return new ParcelableResourceWithMimeType(in);
             }

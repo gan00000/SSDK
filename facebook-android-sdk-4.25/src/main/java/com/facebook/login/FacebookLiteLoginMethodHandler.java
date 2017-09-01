@@ -71,8 +71,8 @@ class FacebookLiteLoginMethodHandler extends NativeAppLoginMethodHandler {
         super.writeToParcel(dest, flags);
     }
 
-    public static final Parcelable.Creator<FacebookLiteLoginMethodHandler> CREATOR =
-            new Parcelable.Creator() {
+    public static final Creator<FacebookLiteLoginMethodHandler> CREATOR =
+            new Creator() {
 
                 @Override
                 public FacebookLiteLoginMethodHandler createFromParcel(Parcel source) {

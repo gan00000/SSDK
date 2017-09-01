@@ -26,7 +26,7 @@ import android.support.annotation.Nullable;
 /**
  * Describes Open Graph content that is to be shared
  * <p/>
- * Use {@link ShareOpenGraphContent.Builder} to create instances
+ * Use {@link Builder} to create instances
  * <p/>
  * See the documentation for <a href="https://developers.facebook.com/docs/opengraph">Open Graph</a>
  * and for <a href="https://developers.facebook.com/docs/sharing/best-practices">best practices</a>.
@@ -59,7 +59,7 @@ public final class ShareOpenGraphContent
     }
 
     /**
-     * The property name for the primary {@link com.facebook.share.model.ShareOpenGraphObject}
+     * The property name for the primary {@link ShareOpenGraphObject}
      * in the action.
      *
      * @return The property name for the preview object.
@@ -92,17 +92,17 @@ public final class ShareOpenGraphContent
             };
 
     /**
-     * Builder for the {@link com.facebook.share.model.ShareOpenGraphContent} interface.
+     * Builder for the {@link ShareOpenGraphContent} interface.
      */
     public static final class Builder
-            extends ShareContent.Builder<com.facebook.share.model.ShareOpenGraphContent, Builder> {
+            extends ShareContent.Builder<ShareOpenGraphContent, Builder> {
         private ShareOpenGraphAction action;
         private String previewPropertyName;
 
         /**
          * Sets the Open Graph Action for the content.
          *
-         * @param action {@link com.facebook.share.model.ShareOpenGraphAction}
+         * @param action {@link ShareOpenGraphAction}
          * @return The builder.
          */
         public Builder setAction(@Nullable final ShareOpenGraphAction action) {
@@ -116,7 +116,7 @@ public final class ShareOpenGraphContent
 
         /**
          * Sets the property name for the primary
-         * {@link com.facebook.share.model.ShareOpenGraphObject} in the action.
+         * {@link ShareOpenGraphObject} in the action.
          *
          * @param previewPropertyName The property name for the preview object.
          * @return The builder.
@@ -128,12 +128,12 @@ public final class ShareOpenGraphContent
         }
 
         @Override
-        public com.facebook.share.model.ShareOpenGraphContent build() {
+        public ShareOpenGraphContent build() {
             return new ShareOpenGraphContent(this);
         }
 
         @Override
-        public Builder readFrom(final com.facebook.share.model.ShareOpenGraphContent model) {
+        public Builder readFrom(final ShareOpenGraphContent model) {
             if (model == null) {
                 return this;
             }

@@ -155,7 +155,7 @@ class AppEventStore {
             } else if (resultClassDescriptor.getName().equals(
                     APP_EVENT_SERIALIZATION_PROXY_V1_CLASS_NAME)) {
                 resultClassDescriptor = ObjectStreamClass.lookup(
-                        com.facebook.appevents.AppEvent.SerializationProxyV1.class);
+                        AppEvent.SerializationProxyV1.class);
             }
 
             return resultClassDescriptor;

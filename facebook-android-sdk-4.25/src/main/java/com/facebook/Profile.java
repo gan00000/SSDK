@@ -297,7 +297,7 @@ public final class Profile implements Parcelable {
         dest.writeString(linkUri == null ? null : linkUri.toString());
     }
 
-    public static final Parcelable.Creator<Profile> CREATOR = new Parcelable.Creator() {
+    public static final Creator<Profile> CREATOR = new Creator() {
 
         @Override
         public Profile createFromParcel(Parcel source) {
