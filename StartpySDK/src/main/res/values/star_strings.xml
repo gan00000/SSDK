@@ -51,5 +51,6 @@
     <string name="py_bind_google">Google綁定</string>
     <string name="py_bind_phone_area_num">+86</string>
     <string name="py_account_center">會員中心</string>
+    <string name="py_send_new_pwd">發送新密碼</string>
 
 </resources>

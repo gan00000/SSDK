@@ -34,6 +34,7 @@
             <ImageView
                 android:layout_width="@dimen/px_400"
                 android:layout_height="match_parent"
+                android:id="@+id/py_bind_account_title"
                 android:src="@drawable/v2_bg_title_bind_account"/>
 
 
@@ -177,11 +178,23 @@
             android:gravity="center_horizontal"
             android:layout_marginTop="@dimen/px_15">
 
-            <Button
+            <!--<Button-->
+                <!--android:layout_width="@dimen/px_420"-->
+                <!--android:layout_height="@dimen/px_60"-->
+                <!--android:background="@drawable/v2_login_sure"-->
+                <!--android:id="@+id/py_bind_account_confirm"/>-->
+
+            <TextView
                 android:layout_width="@dimen/px_420"
                 android:layout_height="@dimen/px_60"
-                android:background="@drawable/v2_login_sure"
-                android:id="@+id/py_bind_account_confirm"/>
+                android:id="@+id/py_bind_account_confirm"
+                android:text="@string/py_confire"
+                android:textStyle="bold"
+                android:textSize="@dimen/sp_24"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_192d3f_46" />
+
         </LinearLayout>
 
     </LinearLayout>

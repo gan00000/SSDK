@@ -19,7 +19,8 @@
             android:layout_gravity="center"
             android:layout_width="@dimen/px_160"
             android:layout_height="@dimen/px_160"
-            android:layout_marginTop="@dimen/px_25" />
+            android:layout_marginTop="@dimen/px_25"
+            fresco:placeholderImage="@drawable/plat_default_loading"/>
 
 
         <TextView
@@ -32,7 +33,7 @@
             android:layout_gravity="center"
             android:textColor="@android:color/white"
             android:id="@+id/plat_gift_center_get_statue"
-            android:textSize="@dimen/px_26" />
+            android:textSize="@dimen/px_24" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -44,7 +45,7 @@
             android:id="@+id/plat_gift_center_time"
             android:paddingLeft="@dimen/px_10"
             android:paddingRight="@dimen/px_10"
-            android:textSize="@dimen/px_24" />
+            android:textSize="@dimen/px_20" />
 
 
         <TextView
@@ -55,7 +56,7 @@
             android:layout_gravity="center"
             android:textColor="@android:color/white"
             android:id="@+id/plat_gift_center_title"
-            android:textSize="@dimen/px_26" />
+            android:textSize="@dimen/px_24" />
 
         <TextView
             android:layout_width="wrap_content"

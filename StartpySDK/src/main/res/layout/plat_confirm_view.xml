@@ -14,7 +14,6 @@
         android:textSize="@dimen/sp_30"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        android:letterSpacing="2.0"
         android:gravity="center" />
 
 </LinearLayout>

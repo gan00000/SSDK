@@ -55,7 +55,6 @@
             android:background="@drawable/plat_yellow_rectangle_bg"
             android:id="@+id/gift_get_success_confirm"
             android:gravity="center"
-            android:letterSpacing="1.0"
             android:text="@string/plat_confire_btn"
             android:textColor="@android:color/white"
             android:textSize="@dimen/sp_28" />

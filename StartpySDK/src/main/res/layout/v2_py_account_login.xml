@@ -168,7 +168,12 @@
                 android:layout_width="@dimen/px_420"
                 android:layout_height="@dimen/px_60"
                 android:id="@+id/v2_member_btn_login"
-                android:background="@drawable/v2_member_btn_login" />
+                android:background="@drawable/bg_192d3f_46"
+                android:gravity="center"
+                android:textSize="@dimen/sp_24"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:text="@string/py_login_by_members"/>
         </LinearLayout>
 
         <LinearLayout

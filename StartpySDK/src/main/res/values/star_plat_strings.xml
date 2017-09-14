@@ -22,7 +22,8 @@
     <string name="plat_account_bind_google">Google帳號綁定</string>
 
     <string name="plat_confire_btn">確認</string>
-    <string name="plat_my_serial_number">我的序號</string>
+    <string name="plat_my_serial_number">我\n的\n序\n號</string>
+    <string name="plat_my_serial_number_title">我的序號</string>
     <string name="plat_my_serial">序號 : </string>
     <string name="plat_click_get">點擊領取</string>
     <string name="plat_gift_has_get">已領取</string>
@@ -40,6 +41,8 @@
     <string name="plat_vf_code_not_empty">驗證碼不能為空</string>
     <string name="plat_has_get_gift">您已經領取禮包</string>
     <string name="plat_copy_success">序號%s複製成功</string>
+    <string name="plat_phone_num_format_error">該區號手機號碼格式錯誤</string>
+    <string name="plat_mail_delete">刪除</string>
 
 
 </resources>

@@ -78,7 +78,6 @@
             android:layout_marginTop="@dimen/px_65"
             android:background="@drawable/plat_confirm_bg"
             android:gravity="center"
-            android:letterSpacing="1.0"
             android:text="@string/plat_bind_phone_get_gift"
             android:textColor="@android:color/white"
             android:textSize="@dimen/sp_30"
@@ -172,7 +171,6 @@
             android:textSize="@dimen/sp_30"
             android:textColor="@android:color/white"
             android:textStyle="bold"
-            android:letterSpacing="1.0"
             android:gravity="center" />
 
 
