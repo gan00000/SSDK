@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
          * severCode 角色伺服器id
          * serverName 角色伺服器名称
          */
-        iStarpy.registerRoleInfo(this, "roleid_1", "roleName", "rolelevel", "1", "serverName");
+        iStarpy.registerRoleInfo(this, "roleid_1", "roleName", "rolelevel", "1000", "serverName");
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -109,7 +109,7 @@ public class MainActivity extends Activity {
                 roleLevel 觉得等级
                 customize 自定义透传字段（从服务端回调到cp）
                 */
-                iStarpy.pay(MainActivity.this, SPayType.GOOGLE, "" + System.currentTimeMillis(), "py.brmmd.1.99", "roleLevel", "customize");
+                iStarpy.pay(MainActivity.this, SPayType.GOOGLE, "" + System.currentTimeMillis(), "tw.mthx.100usd", "roleLevel", "customize");
 
             }
         });
@@ -172,6 +172,12 @@ public class MainActivity extends Activity {
         findViewById(R.id.open_plat).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                /**
+                 * 打开内置平台页面
+                 * level：游戏等级
+                 * vipLevel：vip等级，没有就写""
+                 */
                 iStarpy.openPlatform(MainActivity.this,"roleLevel","10");
 
             }
