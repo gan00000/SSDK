@@ -11,75 +11,92 @@
         android:layout_height="match_parent">
 
 
-        <LinearLayout android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/demo_login"
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="登陆" />
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <Button
-                android:id="@+id/demo_pay"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="others储值" />
 
-            <Button
-                android:id="@+id/demo_pay_google"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="google储值" />
+                <Button
+                    android:id="@+id/demo_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="登陆" />
 
-            <Button
-                android:id="@+id/demo_cs"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="客服" />
+                <Button
+                    android:id="@+id/demo_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MyCard等其他储值" />
 
-            <Button
-                android:id="@+id/demo_share"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="分享" />
+                <Button
+                    android:id="@+id/demo_pay_google"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="google储值" />
 
-            <Button
-                android:id="@+id/open_page"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="打开页面" />
+                <Button
+                    android:id="@+id/demo_cs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="客服" />
 
-            <Button
-                android:id="@+id/open_plat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="打开平台" />
+                <Button
+                    android:id="@+id/demo_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分享" />
 
-            <Button
-                android:id="@+id/demo_google_unlock"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="解锁成就" />
+                <Button
+                    android:id="@+id/open_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="打开页面" />
 
-            <Button
-                android:id="@+id/demo_dis_cj"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="显示成就" />
+                <Button
+                    android:id="@+id/open_plat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="打开平台" />
 
-            <Button
-                android:id="@+id/open_sumitScore"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="更新排行榜数据" />
+            </LinearLayout>
 
-            <Button
-                android:id="@+id/open_dis_phb"
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="显示排行榜" />
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/demo_google_unlock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="解锁成就" />
+
+                <Button
+                    android:id="@+id/demo_dis_cj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="显示成就" />
+
+                <Button
+                    android:id="@+id/open_sumitScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="更新排行榜数据" />
+
+                <Button
+                    android:id="@+id/open_dis_phb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="显示排行榜" />
+
+            </LinearLayout>
 
         </LinearLayout>
 

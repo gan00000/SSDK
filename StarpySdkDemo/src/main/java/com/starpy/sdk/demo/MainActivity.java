@@ -10,7 +10,6 @@ import android.widget.Button;
 import com.core.base.utils.PL;
 import com.starpy.base.bean.SGameLanguage;
 import com.starpy.base.bean.SPayType;
-import com.starpy.base.utils.SLog;
 import com.starpy.data.login.ILoginCallBack;
 import com.starpy.data.login.response.SLoginResponse;
 import com.starpy.sdk.out.ISdkCallBack;
@@ -32,9 +31,6 @@ public class MainActivity extends Activity {
         googlePayBtn = (Button) findViewById(R.id.demo_pay_google);
         csButton = (Button) findViewById(R.id.demo_cs);
         shareButton = (Button) findViewById(R.id.demo_share);
-
-        SLog.enableInfo(true);
-        SLog.enableDebug(true);
 
         iStarpy = StarpyFactory.create();
 
@@ -187,25 +183,46 @@ public class MainActivity extends Activity {
         findViewById(R.id.demo_google_unlock).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                iStarpy.unlockAchievement("CggI-uz7vhQQAhAA");
+
+                /**
+                 * 解锁成就
+                 * 参数：
+                 * 成就 id
+                 */
+                iStarpy.unlockAchievement("CgkIq8GizdAREAIQAA");
             }
         });
         findViewById(R.id.demo_dis_cj).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /**
+                 * 显示成就
+                 */
                 iStarpy.displayingAchievements();
             }
         });
         findViewById(R.id.open_sumitScore).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                iStarpy.submitScore("CggI-uz7vhQQAhAC",10l);
+                /**
+                 * 提交排行榜成绩
+                 *
+                 * 参数：
+                 *  排行榜id
+                 *  成绩分数
+                 */
+                iStarpy.submitScore("CgkIq8GizdAREAIQHg",10l);
             }
         });
         findViewById(R.id.open_dis_phb).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                iStarpy.displayLeaderboard("CggI-uz7vhQQAhAC");
+                /**
+                 * 显示排行榜
+                 * 参数：
+                 *  排行榜id
+                 */
+                iStarpy.displayLeaderboard("CgkIq8GizdAREAIQHg");
             }
         });
     }
