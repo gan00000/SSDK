@@ -3,6 +3,7 @@ package com.starpy.sdk.demo;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.Button;
 
@@ -182,6 +183,31 @@ public class MainActivity extends Activity {
 
             }
         });
+
+        findViewById(R.id.demo_google_unlock).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                iStarpy.unlockAchievement("CggI-uz7vhQQAhAA");
+            }
+        });
+        findViewById(R.id.demo_dis_cj).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                iStarpy.displayingAchievements();
+            }
+        });
+        findViewById(R.id.open_sumitScore).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                iStarpy.submitScore("CggI-uz7vhQQAhAC",10l);
+            }
+        });
+        findViewById(R.id.open_dis_phb).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                iStarpy.displayLeaderboard("CggI-uz7vhQQAhAC");
+            }
+        });
     }
 
     @Override
@@ -220,5 +246,11 @@ public class MainActivity extends Activity {
         iStarpy.onDestroy(this);
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        PL.i("activity onRequestPermissionsResult");
+        iStarpy.onRequestPermissionsResult(this,requestCode,permissions,grantResults);
+    }
 
 }
