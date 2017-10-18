@@ -131,10 +131,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
 
                 //下面的参数请按照实际传值
-                String title = "hello world";
-                String message = "hello world message";
-                String shareUrl = "http://www.starb168.com/brmmd_201703171125.html";
-                String picUrl = "https://lh3.googleusercontent.com/mOgnBSExg8wbssGwPGj-rscvNEklCvV3mGVqXuViUqROUok0P6P3JTo6Hmho0LRXoC8=w300-rw";
+                String shareUrl = "http://bw.starb168.com/invite/fbShareContinue.html?gameCode=qmah&adsPlatForm=star_invite&advertiser=share&campaign=1||S||1||S||1065";
                 //分享回调
                 ISdkCallBack iSdkCallBack = new ISdkCallBack() {
                     @Override
@@ -148,7 +145,7 @@ public class MainActivity extends Activity {
                     }
                 };
 
-                iStarpy.share(MainActivity.this,iSdkCallBack,title, message, shareUrl, picUrl);
+                iStarpy.share(MainActivity.this,iSdkCallBack,"", "", shareUrl, "");
 
             }
         });
