@@ -24,8 +24,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':AppCompat')
     compile project(':facebook-android-sdk-4.25')
-//    compile(name:'AppCompat-release',ext:'aar')
-//    compile(name:'facebook-android-sdk-4.25-release',ext:'aar')
+    //    compile(name:'AppCompat-release',ext:'aar')
+    //    compile(name:'facebook-android-sdk-4.25-release',ext:'aar')
 }

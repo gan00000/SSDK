@@ -60,7 +60,7 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"
             android:screenOrientation="sensorLandscape"
             android:windowSoftInputMode="stateHidden"
-            android:theme="@style/Starpy.Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+            android:theme="@style/Starpy.Theme.AppCompat.Light.NoActionBar.FullScreen.Translucent"/>
 
 
         <!-- ==========================共同需要的配置============================ -->
