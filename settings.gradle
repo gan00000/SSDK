@@ -1,5 +1,5 @@
 include ':StartpySDK', ':StarpySdkDemo'
 
 
-include ':facebook-android-sdk-4.25'
+include ':starpy-fb-4.25'
 
