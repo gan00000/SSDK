@@ -119,6 +119,8 @@
                 android:gravity="center"
                 android:hint="@string/plat_starpy_account_tips"
                 android:textColor="@color/e_bcbcbc"
+                android:maxLines="1"
+                android:inputType="text"
                 android:textSize="@dimen/sp_20" />
 
         </LinearLayout>
@@ -147,6 +149,8 @@
                 android:background="@null"
                 android:gravity="center"
                 android:hint="@string/plat_starpy_pwd_tips"
+                android:maxLines="1"
+                android:inputType="text"
                 android:textColor="@color/e_bcbcbc"
                 android:textSize="@dimen/sp_20" />
 

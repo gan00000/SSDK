@@ -119,6 +119,8 @@
                 android:layout_height="wrap_content"
                 android:background="@null"
                 android:gravity="center"
+                android:maxLines="1"
+                android:inputType="text"
                 android:hint="@string/plat_starpy_account_old_pwd"
                 android:textColor="@color/e_bcbcbc"
                 android:textSize="@dimen/sp_20" />
@@ -148,6 +150,8 @@
                 android:layout_height="wrap_content"
                 android:background="@null"
                 android:gravity="center"
+                android:maxLines="1"
+                android:inputType="text"
                 android:hint="@string/plat_starpy_account_new_pwd"
                 android:textColor="@color/e_bcbcbc"
                 android:textSize="@dimen/sp_20" />
