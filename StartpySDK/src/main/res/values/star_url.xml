@@ -1,7 +1,7 @@
 <resources>
 
     <string name="star_py_login_pre_url">http://login.starb168.com/</string>
-    <string name="star_py_login_spa_url">http://ogin.starb168.com/</string>
+    <string name="star_py_login_spa_url">http://login.starb168.com/</string>
 
     <string name="star_py_pay_pre_url">http://pay.starb168.com/</string>
     <string name="star_py_pay_spa_url">http://pay.starb168.com/</string>
