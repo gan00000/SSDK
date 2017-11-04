@@ -1,4 +1,4 @@
-include ':StartpySDK', ':StarpySdkDemo', ':AppCompat'
+include ':StartpySDK', ':StarpySdkDemo'
 
 
 include ':facebook-android-sdk-4.25'
