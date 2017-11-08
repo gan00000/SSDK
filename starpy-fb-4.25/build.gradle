@@ -33,8 +33,6 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //SDK额外的添加
     compile 'com.android.support:recyclerview-v7:25.3.1'
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    //    compile project(':AppCompat')
 }
 
 
