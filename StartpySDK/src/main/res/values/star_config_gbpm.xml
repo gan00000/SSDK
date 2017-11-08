@@ -10,7 +10,7 @@
     <string name="star_game_code">gbpm</string>
     <!--是否侵权 true为侵权，默认为非侵权-->
     <string name="star_infringement"></string>
-    <string name="star_app_key">fdc8dc1901ea4daf89800c18d8eb1569</string>
+    <string name="star_app_key">8569508e59e69c2f07e592a83d307de5</string>
 
     <!--语言默认繁体zh-TW，用来设置UI界面语言，提示等-->
     <!--<string name="star_game_language">zh-TW</string>-->

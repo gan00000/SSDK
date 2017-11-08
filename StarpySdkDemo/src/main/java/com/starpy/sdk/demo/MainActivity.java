@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 
         iStarpy = StarpyFactory.create();
 
-        iStarpy.setGameLanguage(this, SGameLanguage.zh_TW);
+        iStarpy.setGameLanguage(this, SGameLanguage.en_US);
 
         //初始化sdk
         iStarpy.initSDK(this);
