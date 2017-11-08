@@ -101,6 +101,17 @@ android {
             versionName "2.0"
             dimension "all"
         }
+
+        //宠物小精灵 — 英文版
+        gbpm {
+            applicationId "com.starpy.gb.gbpm"
+            signingConfig signingConfigs.starpySign
+            minSdkVersion 18
+            targetSdkVersion 22
+            versionCode 2
+            versionName "2.0"
+            dimension "all"
+        }
     }
 
     android {
