@@ -4,6 +4,10 @@ buildscript {
     repositories {
         jcenter()
         google()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.0'
@@ -18,13 +22,15 @@ buildscript {
     }
 }
 
+//添加以下配置
 allprojects {
     repositories {
         jcenter()
-//        flatDir {
-//            dirs 'libs'
-//            dirs project(':StartpySDK').file('libs')
-//        }
+        flatDir {
+            dirs 'libs'
+            dirs project(':StarpySdkDemo').file('libs')
+        }
+        google()
     }
 }
 
