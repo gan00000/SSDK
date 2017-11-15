@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- fb配置 -->
+    <!-- 必须跟fb后台一致的名字 -->
+    <string name="facebook_app_name">空城計</string>
+    <string name="facebook_app_id">1280020168770346</string>
+    <string name="facebook_authorities">com.facebook.app.FacebookContentProvider1280020168770346</string>
+    <!-- fb配置end -->
+
+    <string name="star_game_code">kcj</string>
+    <!--是否侵权 true为侵权，默认为非侵权-->
+    <string name="star_infringement"></string>
+    <string name="star_app_key">a981bc91f5702e8816a3567715061948</string>
+
+    <!--语言默认繁体zh-TW，用来设置UI界面语言，提示等-->
+    <!--<string name="star_game_language">zh-TW</string>-->
+
+    <!--adword ads  String conversionId, String label  "858913995", "lniQCKDX5G4Qy_nHmQM"-->
+    <string name="star_ads_adword_conversionId"></string>
+    <string name="star_ads_adword_label"></string>
+
+    <string name="star_ads_appflyer_dev_key">BLFVxBvnUi2zH7iwEb72jB</string>
+
+    <!--100登录页为星盟，默认是星彼-->
+    <string name="star_login_type">100</string>
+
+    <integer name="google_play_services_version">11011000</integer>
+
+    <!-- google play game services app_id -->
+    <string name="app_id" translatable="false"></string>
+
+    <string name="google_client_id">686199844705-mc3et6prc6j2o44f3aeoct9efmed0k5p.apps.googleusercontent.com</string>
+
+</resources>

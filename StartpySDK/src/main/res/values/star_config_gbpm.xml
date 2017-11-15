@@ -1,34 +1,34 @@
 <resources>
 
-    <!-- fb配置 -->
-    <!-- 必须跟fb后台一致的名字 -->
-    <string name="facebook_app_name">PokeMMO</string>
-    <string name="facebook_app_id">162382044348232</string>
-    <string name="facebook_authorities">com.facebook.app.FacebookContentProvider162382044348232</string>
-    <!-- fb配置end -->
+    <!--&lt;!&ndash; fb配置 &ndash;&gt;-->
+    <!--&lt;!&ndash; 必须跟fb后台一致的名字 &ndash;&gt;-->
+    <!--<string name="facebook_app_name">PokeMMO</string>-->
+    <!--<string name="facebook_app_id">162382044348232</string>-->
+    <!--<string name="facebook_authorities">com.facebook.app.FacebookContentProvider162382044348232</string>-->
+    <!--&lt;!&ndash; fb配置end &ndash;&gt;-->
 
-    <string name="star_game_code">gbpm</string>
-    <!--是否侵权 true为侵权，默认为非侵权-->
-    <string name="star_infringement"></string>
-    <string name="star_app_key">8569508e59e69c2f07e592a83d307de5</string>
+    <!--<string name="star_game_code">gbpm</string>-->
+    <!--&lt;!&ndash;是否侵权 true为侵权，默认为非侵权&ndash;&gt;-->
+    <!--<string name="star_infringement"></string>-->
+    <!--<string name="star_app_key">8569508e59e69c2f07e592a83d307de5</string>-->
 
-    <!--语言默认繁体zh-TW，用来设置UI界面语言，提示等-->
-    <!--<string name="star_game_language">zh-TW</string>-->
+    <!--&lt;!&ndash;语言默认繁体zh-TW，用来设置UI界面语言，提示等&ndash;&gt;-->
+    <!--&lt;!&ndash;<string name="star_game_language">zh-TW</string>&ndash;&gt;-->
 
-    <!--adword ads  String conversionId, String label  "858913995", "lniQCKDX5G4Qy_nHmQM"-->
-    <string name="star_ads_adword_conversionId"></string>
-    <string name="star_ads_adword_label"></string>
+    <!--&lt;!&ndash;adword ads  String conversionId, String label  "858913995", "lniQCKDX5G4Qy_nHmQM"&ndash;&gt;-->
+    <!--<string name="star_ads_adword_conversionId"></string>-->
+    <!--<string name="star_ads_adword_label"></string>-->
 
-    <string name="star_ads_appflyer_dev_key">BLFVxBvnUi2zH7iwEb72jB</string>
+    <!--<string name="star_ads_appflyer_dev_key">BLFVxBvnUi2zH7iwEb72jB</string>-->
 
-    <!--100登录页为星盟，默认是星彼-->
-    <string name="star_login_type">100</string>
+    <!--&lt;!&ndash;100登录页为星盟，默认是星彼&ndash;&gt;-->
+    <!--<string name="star_login_type">100</string>-->
 
-    <integer name="google_play_services_version">11011000</integer>
+    <!--<integer name="google_play_services_version">11011000</integer>-->
 
-    <!-- google play game services app_id -->
-    <string name="app_id" translatable="false"></string>
+    <!--&lt;!&ndash; google play game services app_id &ndash;&gt;-->
+    <!--<string name="app_id" translatable="false"></string>-->
 
-    <string name="google_client_id">909094334978-88e227817ue7qdc15trcdmup8luahjb6.apps.googleusercontent.com</string>
+    <!--<string name="google_client_id">909094334978-88e227817ue7qdc15trcdmup8luahjb6.apps.googleusercontent.com</string>-->
 
 </resources>
