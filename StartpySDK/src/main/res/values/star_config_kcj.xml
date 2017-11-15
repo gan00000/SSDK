@@ -10,7 +10,7 @@
     <string name="star_game_code">kcj</string>
     <!--是否侵权 true为侵权，默认为非侵权-->
     <string name="star_infringement"></string>
-    <string name="star_app_key">a981bc91f5702e8816a3567715061948</string>
+    <string name="star_app_key">20ca5985bae430d3fcd62eadf9fd82e4</string>
 
     <!--语言默认繁体zh-TW，用来设置UI界面语言，提示等-->
     <!--<string name="star_game_language">zh-TW</string>-->
