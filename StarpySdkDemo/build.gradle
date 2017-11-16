@@ -122,6 +122,16 @@ android {
             versionName "2.0"
             dimension "all"
         }
+        //全球装甲连队 英文
+        gbzj {
+            applicationId "com.starpy.py.gbzj"
+            signingConfig signingConfigs.starpySign
+            minSdkVersion 18
+            targetSdkVersion 27
+            versionCode 2
+            versionName "2.0"
+            dimension "all"
+        }
     }
 
     android {
