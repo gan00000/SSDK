@@ -31,6 +31,11 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':starpy-fb-4.25')
+
+    compile 'com.google.android.gms:play-services-auth:11.0.1'
+    compile 'com.google.android.gms:play-services-plus:11.0.1'
+    compile 'com.google.android.gms:play-services-base:11.0.1'
+    compile 'com.google.android.gms:play-services-games:11.0.1'
     //    compile(name:'AppCompat-release',ext:'aar')
     //    compile(name:'facebook-android-sdk-4.25-release',ext:'aar')
 }
