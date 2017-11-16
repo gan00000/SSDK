@@ -92,7 +92,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.star.applibs.FacebookInitProvider"
+            android:authorities="${applicationId}.FacebookInitProvider"
             android:exported="false" />
 
         <!--<activity-->
