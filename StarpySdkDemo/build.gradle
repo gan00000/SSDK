@@ -127,7 +127,7 @@ android {
             applicationId "com.starpy.py.gbzj"
             signingConfig signingConfigs.starpySign
             minSdkVersion 18
-            targetSdkVersion 27
+            targetSdkVersion 26
             versionCode 2
             versionName "2.0"
             dimension "all"
@@ -146,18 +146,21 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-
     //添加以下配置
-    compile(name: 'starpy-fb-4.25-release', ext: 'aar')
-    compile(name: 'StartpySDK-release', ext: 'aar')
-
+        compile(name: 'starpy-fb-4.25-release', ext: 'aar')
+        compile(name: 'StartpySDK-release', ext: 'aar')
     // Facebook Dependencies
     compile 'com.android.support:appcompat-v7:26.0.2'
     compile 'com.android.support:cardview-v7:26.0.2'
     compile 'com.android.support:customtabs:26.0.2'
-
     //SDK额外的添加
     compile 'com.android.support:recyclerview-v7:26.0.2'
+    //play-services
+    compile 'com.google.android.gms:play-services-auth:11.0.1'
+    compile 'com.google.android.gms:play-services-plus:11.0.1'
+    compile 'com.google.android.gms:play-services-base:11.0.1'
+    compile 'com.google.android.gms:play-services-games:11.0.1'
+
 }
 
 
