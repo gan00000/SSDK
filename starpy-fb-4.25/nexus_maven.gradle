@@ -23,8 +23,8 @@ artifacts {
 uploadArchives {
     repositories {
         mavenDeployer {
-            repository(url: "http://starb.tpddns.cn:8081/repository/maven-releases/") {
-                authentication(userName: "admin", password: "gan372129081!!")
+            repository(url: MAVEN_REPO_RELEASE_URL) {
+                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
             }
             pom.project {
                 name 'starpy-fb-4.25'

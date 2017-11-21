@@ -23,12 +23,12 @@ artifacts {
 uploadArchives {
     repositories {
         mavenDeployer {
-            repository(url: "http://starb.tpddns.cn:8081/repository/maven-releases/") {
-                authentication(userName: "admin", password: "gan372129081!!")
+            repository(url: MAVEN_REPO_RELEASE_URL) {
+                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
             }
             pom.project {
                 name 'StarpySDK'
-                version '1.5'
+                version '1.5.33'
                 artifactId 'starpy-sdk'
                 groupId 'com.starpy.sdk'
                 packaging 'aar'
