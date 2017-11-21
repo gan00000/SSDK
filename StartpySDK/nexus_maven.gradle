@@ -24,7 +24,7 @@ uploadArchives {
     repositories {
         mavenDeployer {
             repository(url: "http://starb.tpddns.cn:8081/repository/maven-releases/") {
-                authentication(userName: "admin", password: "gan372129081")
+                authentication(userName: "admin", password: "gan372129081!!")
             }
             pom.project {
                 name 'StarpySDK'
