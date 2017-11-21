@@ -1,11 +1,5 @@
 apply plugin: 'com.android.library'
 
-//添加以下两个插件
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
-
-version = "1.0"	//aar的版本号
-
 android {
 
     lintOptions {
@@ -30,97 +24,14 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':starpy-fb-4.25')
-
     compile 'com.google.android.gms:play-services-auth:11.0.1'
     compile 'com.google.android.gms:play-services-plus:11.0.1'
     compile 'com.google.android.gms:play-services-base:11.0.1'
     compile 'com.google.android.gms:play-services-games:11.0.1'
     //    compile(name:'AppCompat-release',ext:'aar')
     //    compile(name:'facebook-android-sdk-4.25-release',ext:'aar')
+    compile 'com.starpy.sdk:starpy-fb:4.25'
 }
 
 
-buildscript {
-    repositories {
-        jcenter()
-    }
-}
-
-
-def siteUrl = 'https://github.com/gan00000/SLibrarys.git'    // 项目主页
-def gitUrl = 'https://github.com/gan00000/SLibrarys.git' // 项目的git地址
-def module_name = 'starpy-sdk'	// 项目的名称
-group = 'com.starpy.sdk'	// 所在组
-install {
-    repositories.mavenInstaller {
-        // This generates POM.xml with proper parameters
-        pom {
-            project {
-                packaging 'aar'
-                // 添加描述，不重要
-                name 'starpy-sdk'
-                url siteUrl
-                // 协议
-                licenses {
-                    license {
-                        name 'The Apache Software License, Version 2.0' // 开源协议名称
-                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt' // 协议地址
-                    }
-                }
-                developers {
-                    developer {
-                        id 'ganyuanrong04'	// 账号
-                        name 'ganyuanrong04'	// 名称
-                        email 'ganyuanrong04@gmail.com' // 邮箱地址
-                    }
-                }
-                scm {
-                    connection gitUrl
-                    developerConnection gitUrl
-                    url siteUrl
-                }
-            }
-        }
-    }
-}
-
-
-task sourcesJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier = 'sources'
-}
-task javadoc(type: Javadoc) {
-    //增加编码，这行很重要，如果是windows系统，同时如果在代码中有中文的话，不加这行，上传会报错
-    options.encoding="utf-8"
-    source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-}
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
-
-artifacts {
-//    archives javadocJar
-    archives sourcesJar
-}
-Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
-bintray {
-    // 读取配置文件中的用户名和key
-    user = properties.getProperty("bintray.user")
-    key = properties.getProperty("bintray.apikey")
-    configurations = ['archives']
-    pkg {
-        repo = "maven"		//发布到Bintray的哪个仓库 你在bintray上创建的库的名称
-        name = module_name    // 在jcenter中的项目名称
-        websiteUrl = siteUrl
-        vcsUrl = gitUrl
-        licenses = ["Apache-2.0"]
-        publish = true
-    }
-}
-
-//gradew install
-//gradew bintrayUpload
+apply from: './nexus_maven.gradle'

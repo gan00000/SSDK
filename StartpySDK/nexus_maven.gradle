@@ -1,0 +1,42 @@
+apply plugin: 'maven'
+
+task androidJavadocs(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+task androidJavadocsJar(type: Jar, dependsOn: androidJavadocs) {
+    classifier = 'javadoc'
+    from androidJavadocs.destinationDir
+}
+
+task androidSourcesJar(type: Jar) {
+    classifier = 'sources'
+    from android.sourceSets.main.java.srcDirs
+}
+
+artifacts {
+    archives androidSourcesJar
+    archives androidJavadocsJar
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "http://starb.tpddns.cn:8081/repository/maven-releases/") {
+                authentication(userName: "admin", password: "gan372129081")
+            }
+            pom.project {
+                name 'StarpySDK'
+                version '1.4'
+                artifactId 'starpy-sdk'
+                groupId 'com.starpy.sdk'
+                packaging 'aar'
+                description 'starpy sdk for Android'
+            }
+        }
+    }
+}
+
+//其中主要配置的内容有：url,authentication以及pom.project里面的信息；
+//然后在该模块下的build.gradle文件最后添加下面这句apply from: './nexus_maven.gradle'
