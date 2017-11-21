@@ -92,14 +92,14 @@
             android:exported="false" />
 
         <!--<activity-->
-            <!--android:name="com.facebook.FacebookActivity"-->
-            <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"-->
-            <!--android:screenOrientation="sensorLandscape"-->
-            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />-->
+        <!--android:name="com.facebook.FacebookActivity"-->
+        <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"-->
+        <!--android:screenOrientation="sensorLandscape"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />-->
         <!--<activity android:name="com.facebook.CustomTabMainActivity"-->
-            <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"-->
-            <!--android:screenOrientation="sensorLandscape"-->
-            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>-->
+        <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"-->
+        <!--android:screenOrientation="sensorLandscape"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>-->
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationName"
@@ -135,36 +135,36 @@
         <!--play-services config start-->
 
         <!--<activity-->
-            <!--android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"-->
-            <!--android:excludeFromRecents="true"-->
-            <!--android:exported="false"-->
-            <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"-->
-            <!--android:screenOrientation="sensorLandscape"-->
-            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+        <!--android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"-->
+        <!--android:excludeFromRecents="true"-->
+        <!--android:exported="false"-->
+        <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"-->
+        <!--android:screenOrientation="sensorLandscape"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
         <!--&lt;!&ndash;-->
-            <!--Service handling Google Sign-In user revocation. For apps that do not integrate with-->
-                <!--Google Sign-In, this service will never be started.-->
+        <!--Service handling Google Sign-In user revocation. For apps that do not integrate with-->
+        <!--Google Sign-In, this service will never be started.-->
         <!--&ndash;&gt;-->
         <!--<service-->
-            <!--android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"-->
-            <!--android:exported="true"-->
-            <!--android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />-->
+        <!--android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"-->
+        <!--android:exported="true"-->
+        <!--android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />-->
 
         <!--<activity-->
-            <!--android:name="com.google.android.gms.common.api.GoogleApiActivity"-->
-            <!--android:exported="false"-->
-            <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"-->
-            <!--android:screenOrientation="sensorLandscape"-->
-            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+        <!--android:name="com.google.android.gms.common.api.GoogleApiActivity"-->
+        <!--android:exported="false"-->
+        <!--android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"-->
+        <!--android:screenOrientation="sensorLandscape"-->
+        <!--android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
 
         <!--&lt;!&ndash;g+ login&ndash;&gt;-->
         <!--<meta-data-->
-            <!--android:name="com.google.android.gms.version"-->
-            <!--android:value="@integer/google_play_services_version" />-->
+        <!--android:name="com.google.android.gms.version"-->
+        <!--android:value="@integer/google_play_services_version" />-->
 
         <!--play game services-->
         <meta-data android:name="com.google.android.gms.games.APP_ID"
-        android:value="@string/app_id" />
+            android:value="@string/google_app_id" />
 
         <!--play-services config end-->
 

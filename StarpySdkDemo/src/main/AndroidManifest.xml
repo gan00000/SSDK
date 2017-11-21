@@ -24,16 +24,16 @@
             </intent-filter>
 
 
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
 
-                <data
-                    android:host="@string/star_game_code"
-                    android:scheme="@string/star_android_scheme" />
-            </intent-filter>
+                <!--<data-->
+                    <!--android:host="@string/star_game_code"-->
+                    <!--android:scheme="@string/star_android_scheme" />-->
+            <!--</intent-filter>-->
 
 
         </activity>
