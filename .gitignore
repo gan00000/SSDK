@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+AppCompat/src/main/java/
+StartpySDK/src/main/java/
+facebookfresco/src/main/java/
+facebookfresco/src/main/res/drawable/
+.gradle
+.idea
+build
