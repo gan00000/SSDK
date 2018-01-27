@@ -28,7 +28,7 @@ uploadArchives {
             }
             pom.project {
                 name 'StarpySDK'
-                version '2.2.6'
+                version '2.2.7'
                 artifactId 'starpy-sdk'
                 groupId 'com.starpy.sdk'
                 packaging 'aar'
