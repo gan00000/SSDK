@@ -65,9 +65,7 @@ public class MainActivity extends Activity {
                             String uid = sLoginResponse.getUserId();
                             String accessToken = sLoginResponse.getAccessToken();
                             String timestamp = sLoginResponse.getTimestamp();
-
                             PL.i("uid:" + uid);
-
                         }
                     }
                 });
@@ -267,4 +265,9 @@ public class MainActivity extends Activity {
         iStarpy.onRequestPermissionsResult(this,requestCode,permissions,grantResults);
     }
 
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        iStarpy.onWindowFocusChanged(this,hasFocus);
+    }
 }

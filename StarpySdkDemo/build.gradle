@@ -13,30 +13,50 @@ android {
     compileSdkVersion 26
     buildToolsVersion '26.0.2'
 
+
+    defaultConfig {
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86"  // 指定要ndk需要兼容的架构(这样其他依赖包里mips之类的so会被过滤掉)
+        }
+    }
+
     android.applicationVariants.all { variant ->
         variant.outputs.all { output ->
             //定义一个文件
+//            outputFileName = "${variant.name}-${variant.versionName}.apk"
 //            def outputFile = output.outputFile
-//            //定义存储apk的位置和文件名，这里文件名格式定义为 [applicationId_版本号_ReleaseTime_apk]
-//            if (outputFile != null && outputFile.name.contains("release") && outputFile.name.endsWith('.apk')) {
-//
-//                def fileName = "${variant.applicationId}_${variant.versionCode}_${variant.versionName}_${getReleaseTime()}_release.apk"
-//                output.outputFile = new File(outputFile.parent, fileName)
-//            }else  if (outputFile != null && outputFile.name.contains("debug") && outputFile.name.endsWith('.apk')) {
-//
-//                def fileName = "${variant.applicationId}_${variant.versionCode}_${variant.versionName}_${getReleaseTime()}_debug.apk"
-//                output.outputFile = new File(outputFile.parent, fileName)
-//            }
+            //定义存储apk的位置和文件名，这里文件名格式定义为 [applicationId_版本号_ReleaseTime_apk]
+            if (outputFileName != null && outputFileName.contains("release") && outputFileName.endsWith('.apk')) {
+
+                outputFileName = "${variant.applicationId}_${variant.versionCode}_${variant.versionName}_${getReleaseTime()}_release.apk"
+
+            }else  if (outputFile != null && outputFile.name.contains("debug") && outputFile.name.endsWith('.apk')) {
+
+                outputFileName = "${variant.applicationId}_${variant.versionCode}_${variant.versionName}_${getReleaseTime()}_debug.apk"
+            }
         }
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            //装甲英文
+            resValue "string", "facebook_app_name", "General Kim"
+            resValue "string", "facebook_app_id", "141453116613802"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider141453116613802"
+            resValue "string", "google_app_id", "768367627631"
         }
 
         debug {
             signingConfig signingConfigs.starpySign
+
+            //装甲英文
+            resValue "string", "facebook_app_name", "General Kim"
+            resValue "string", "facebook_app_id", "141453116613802"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider141453116613802"
+            resValue "string", "google_app_id", "768367627631"
+
         }
     }
 
@@ -118,8 +138,8 @@ android {
             signingConfig signingConfigs.starpySign
             minSdkVersion 18
             targetSdkVersion 22
-            versionCode 2
-            versionName "2.0"
+            versionCode 1
+            versionName "1.0"
             dimension "all"
         }
         //全球装甲连队 英文
@@ -144,23 +164,19 @@ android {
     }
 }
 
+configurations.all {
+    //每隔24小时检查远程依赖是否存在更新
+//    resolutionStrategy.cacheChangingModulesFor 48, 'hours'
+    //每隔10分钟..
+    // 采用动态版本声明的依赖缓存1分钟
+    resolutionStrategy.cacheDynamicVersionsFor 2*60, 'seconds'
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     // Facebook Dependencies
-    compile 'com.android.support:appcompat-v7:26.0.2'
-    compile 'com.android.support:cardview-v7:26.0.2'
-    compile 'com.android.support:customtabs:26.0.2'
-    //SDK额外的添加
-    compile 'com.android.support:recyclerview-v7:26.0.2'
-    //play-services
-    compile 'com.google.android.gms:play-services-auth:11.0.1'
-    compile 'com.google.android.gms:play-services-plus:11.0.1'
-    compile 'com.google.android.gms:play-services-base:11.0.1'
-    compile 'com.google.android.gms:play-services-games:11.0.1'
-    //SDK
-    compile 'com.starpy.sdk:starpy-sdk:1.5'
-
-
+        compile 'com.starpy.sdk:starpy-sdk:2.+'
+//    implementation project(':StartpySDK')
 }
 
 
