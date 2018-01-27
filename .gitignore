@@ -6,3 +6,4 @@ facebookfresco/src/main/res/drawable/
 .gradle
 .idea
 build
+*.iml
