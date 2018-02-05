@@ -29,7 +29,7 @@ allprojects {
         jcenter()
         google()
         maven {
-            url "http://starb.tpddns.cn:8081/repository/maven-releases/"
+            url "http://maven.starpy168.com:8081/repository/maven-public/"
             credentials {
                 username "cp_dev"
                 password "cpdev1688"
