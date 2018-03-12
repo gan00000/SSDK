@@ -41,21 +41,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
-            //装甲英文
-            resValue "string", "facebook_app_name", "General Kim"
-            resValue "string", "facebook_app_id", "141453116613802"
-            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider141453116613802"
-            resValue "string", "google_app_id", "768367627631"
         }
 
         debug {
             signingConfig signingConfigs.starpySign
-
-            //装甲英文
-            resValue "string", "facebook_app_name", "General Kim"
-            resValue "string", "facebook_app_id", "141453116613802"
-            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider141453116613802"
-            resValue "string", "google_app_id", "768367627631"
 
         }
     }
@@ -145,6 +134,22 @@ android {
         //全球装甲连队 英文
         gbzj {
             applicationId "com.starpy.py.gbzj"
+            signingConfig signingConfigs.starpySign
+            minSdkVersion 18
+            targetSdkVersion 26
+            versionCode 2
+            versionName "2.0"
+            dimension "all"
+
+            resValue "string", "facebook_app_name", "General Kim"
+            resValue "string", "facebook_app_id", "141453116613802"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider141453116613802"
+            resValue "string", "google_app_id", "768367627631"
+
+        }
+
+        dfh_ch {
+            applicationId "com.starpy.hxcn"
             signingConfig signingConfigs.starpySign
             minSdkVersion 18
             targetSdkVersion 26
