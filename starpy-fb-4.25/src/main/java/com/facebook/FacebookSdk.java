@@ -273,9 +273,10 @@ public final class FacebookSdk {
 
         // We should have an application id by now if not throw
         if (Utility.isNullOrEmpty(applicationId)) {
-            throw new FacebookException("A valid Facebook app id must be set in the " +
+            Log.e(TAG,"A valid Facebook app id must be set in the " +
                     "AndroidManifest.xml or set by calling FacebookSdk.setApplicationId " +
                     "before initializing the sdk.");
+            return;
         }
 
         // Set sdkInitialized to true now so the bellow async tasks don't throw not initialized
