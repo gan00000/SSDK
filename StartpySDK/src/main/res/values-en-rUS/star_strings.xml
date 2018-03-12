@@ -53,4 +53,14 @@
     <string name="py_account_center">Member Center</string>
     <string name="py_send_new_pwd">Send new password</string>
 
+    <string name="py_free_reg">guest login</string>
+
+    <string name="py_login_page_account_login">Login</string>
+    <string name="py_login_page_account_reg">Register</string>
+    <string name="py_login_page_account_bind">Account Bind</string>
+    <string name="py_login_page_change_pwd">Change Password</string>
+    <string name="py_login_page_forgot_pwd">Forgot Password</string>
+
+    <string name="py_bind_phone">bind phone</string>
+
 </resources>

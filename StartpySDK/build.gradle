@@ -31,6 +31,8 @@ dependencies {
     //    compile(name:'AppCompat-release',ext:'aar')
     //    compile(name:'facebook-android-sdk-4.25-release',ext:'aar')
     compile 'com.starpy.sdk:starpy-fb:4.25'
+
+    implementation 'org.greenrobot:greendao:3.2.2'
 }
 
 

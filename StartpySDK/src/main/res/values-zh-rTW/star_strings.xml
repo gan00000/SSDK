@@ -1,5 +1,7 @@
 <resources>
 
+    <string name="py_success">成功</string>
+
     <string name="py_account_login">帳號登入</string>
     <string name="py_account">帳號:</string>
     <string name="py_account_hit">帳號</string>
@@ -29,5 +31,44 @@
     <string name="py_login_mac_tips">你登入 %1$s 的帳號和密碼如下:\n帳號: %2$s 密碼: %3$s</string>
     <string name="py_login_mac_saveimage_tips">你的帳號密碼已經保存到相冊中</string>
     <string name="py_login_autologin_tips">帳號 %1$s 正在登錄</string>
-    <string name="py_login_autologin_fblogining_tips">facebook帳號正在登錄</string>
+    <string name="py_login_autologin_fblogining_tips">Facebook帳號正在登錄</string>
+    <string name="py_login_autologin_logining_tips">帳號正在登錄</string>
+
+    <string name="py_register_email_hit">郵箱,選填,用於找回密碼</string>
+    <string name="py_findpwd_email_hit">郵箱,必填,用於找回密碼</string>
+    <string name="py_login_save_account">記住帳號</string>
+    <string name="py_login_by_members">會員登入</string>
+    <string name="py_email_format_error">郵箱格式錯誤</string>
+    <string name="py_email_empty">郵箱不能為空</string>
+    <string name="py_old_pwd">舊密碼</string>
+    <string name="py_new_pwd">新密碼</string>
+    <string name="py_change_pwd">修改密碼</string>
+    <string name="py_old_equel_new_pwd">新密碼與舊密碼不能一致</string>
+    <string name="py_findpwd_success">找回密碼成功</string>
+    <string name="py_findpwd">忘記密碼</string>
+    <string name="py_bind_unique">免註冊綁定</string>
+    <string name="py_bind_fb">Facebook綁定</string>
+    <string name="py_bind_google">Google綁定</string>
+    <string name="py_bind_phone_area_num">+86</string>
+    <string name="py_account_center">會員中心</string>
+    <string name="py_send_new_pwd">發送新密碼</string>
+    <string name="py_free_reg">遊客登入</string>
+    <string name="py_login_page_account_login">會員登入頁</string>
+    <string name="py_login_page_account_reg">會員註冊</string>
+    <string name="py_login_page_account_bind">綁定帳號</string>
+    <string name="py_login_page_change_pwd">修改密碼</string>
+    <string name="py_login_page_forgot_pwd">忘記密碼</string>
+
+    <string name="py_bind_phone">綁定手機</string>
+    <string name="py_bind_phone_number">手機號碼，必填</string>
+    <string name="py_bind_phone_vf_code">驗證碼</string>
+    <string name="py_bind_phone_get_vf_code">獲取驗證碼</string>
+
+    <string name="py_unbind_phone">解綁手機</string>
+
+    <string name="py_find_new_pwd_hit">新密碼,6~18字符,僅限字母或數字</string>
+    <string name="py_unbind_phone_title_hit">解綁手機</string>
+    <string name="py_unbind_phone_title_en_hit">Unbind Phone</string>
+    <string name="py_unbind_phone_phonenum_tips">解綁的手機號碼，必填</string>
+
 </resources>

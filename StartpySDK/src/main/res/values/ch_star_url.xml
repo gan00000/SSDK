@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="ch_star_py_login_pre_url">http://login.yor88.com/</string>
+    <string name="ch_star_py_login_spa_url">http://login.yor88.com/</string>
+
+    <string name="ch_star_py_pay_pre_url">http://pay.yor88.com/</string>
+    <string name="ch_star_py_pay_spa_url">http://pay.yor88.com/</string>
+
+    <string name="ch_star_py_cs_pre_url">http://cs.yor88.com/</string>
+    <string name="ch_star_py_cs_spa_url">http://cs.yor88.com/</string>
+
+    <string name="ch_star_py_act_pre_url">http://activity.yor88.com/</string>
+    <string name="ch_star_py_act_spa_url">http://activity.yor88.com/</string>
+
+    <!--平台CND的主域名：autocdn-palt.starb168.com-->
+    <!--备用域名：autocdn-paltsl.starb168.com-->
+    <string name="ch_star_py_cdn_pre_url">http://autocdn-paltslave.yor88.com/</string>
+    <string name="ch_star_py_cdn_spa_url">http://autocdn-paltslave.yor88.com/</string>
+
+
+    <string name="ch_star_plat_pre_url">http://platform.yor88.com/</string>
+    <string name="ch_star_plat_spa_url">http://platform.yor88.com/</string>
+
+    <string name="ch_star_ads_pre_url">http://ads.yor88.com/</string>
+    <string name="ch_star_ads_spa_url">http://ads.yor88.com/</string>
+
+
+</resources>

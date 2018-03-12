@@ -74,6 +74,32 @@
                 android:gravity="center"
                 android:textColor="@android:color/white"
                 android:background="@drawable/v2_py_account_manger_btn_bg" />
+
+            <TextView
+                android:layout_width="@dimen/px_460"
+                android:layout_height="@dimen/px_80"
+                android:layout_marginTop="@dimen/px_20"
+                android:id="@+id/v2_account_manager_bindphone_btn"
+                android:text="@string/py_bind_phone"
+                android:textStyle="bold"
+                android:textSize="@dimen/sp_26"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                android:background="@drawable/v2_py_account_manger_btn_bg"  />
+            <TextView
+                android:layout_width="@dimen/px_460"
+                android:layout_height="@dimen/px_80"
+                android:layout_marginTop="@dimen/px_20"
+                android:id="@+id/v2_account_manager_unbindphone_bind_btn"
+                android:text="@string/py_unbind_phone"
+                android:textStyle="bold"
+                android:textSize="@dimen/sp_26"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                android:background="@drawable/v2_py_account_manger_btn_bg" />
+
         </LinearLayout>
 
     </LinearLayout>

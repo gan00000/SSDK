@@ -18,6 +18,7 @@
             android:layout_marginTop="@dimen/px_15">
 
             <include layout="@layout/v2_login_back_layout"/>
+
         </LinearLayout>
 
 
@@ -33,20 +34,21 @@
             <!--<ImageView-->
                 <!--android:layout_width="@dimen/px_400"-->
                 <!--android:layout_height="match_parent"-->
-                <!--android:id="@+id/v2_bg_title_register_iv"-->
-                <!--android:src="@drawable/v2_bg_title_register"/>-->
+                <!--android:id="@+id/py_bind_account_title"-->
+                <!--android:src="@drawable/v2_bg_title_bind_account"/>-->
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_30"
                 android:textColor="@android:color/white"
-                android:text="@string/py_login_page_account_reg"
+                android:text="@string/py_bind_phone"
                 android:textStyle="bold"
                 android:shadowColor="#FF000000"
                 android:shadowRadius="3.0"
                 android:shadowDx="5"
                 android:shadowDy="5"
+                android:id="@+id/bind_phone_title"
                 />
 
             <TextView
@@ -54,10 +56,11 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_15"
                 android:textColor="@android:color/white"
-                android:text="New Account"
+                android:text="Bind Phone"
                 android:layout_gravity="bottom"
                 android:layout_marginBottom="@dimen/px_5"
                 android:layout_marginLeft="@dimen/px_8"
+                android:id="@+id/bind_phone_title_en"
                 />
 
 
@@ -94,7 +97,7 @@
                     android:background="@null"
                     android:hint="@string/py_register_account_hit"
                     android:textSize="@dimen/sp_18"
-                    android:id="@+id/py_register_account"
+                    android:id="@+id/py_bindphone_account"
                     />
 
             </LinearLayout>
@@ -123,7 +126,7 @@
                     android:background="@null"
                     android:hint="@string/py_register_account_hit"
                     android:textSize="@dimen/sp_18"
-                    android:id="@+id/py_register_password"
+                    android:id="@+id/py_bindphone_password"
                     />
 
 
@@ -132,7 +135,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/px_15"
                     android:padding="@dimen/px_8"
-                    android:id="@+id/py_eye_imageview_id"
+                    android:id="@+id/py_bindphone_eye_imageview_id"
                     android:src="@drawable/py_eye_selector_v2"/>
 
             </LinearLayout>
@@ -142,7 +145,6 @@
                 android:layout_marginTop="@dimen/px_15"
                 android:background="@drawable/v2_editetext_view_bg"
                 android:gravity="center_vertical"
-                android:id="@+id/py_register_mail_layout"
                 android:paddingLeft="@dimen/px_30"
                 android:paddingRight="@dimen/px_30"
                 android:orientation="horizontal">
@@ -150,18 +152,70 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/v2_bg_icon_email"/>
+                    android:background="@drawable/bg_icon_phone"/>
+
+                <TextView
+                    android:id="@+id/py_bindphone_phonearea"
+                    android:layout_width="@dimen/px_80"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/px_5"
+                    android:text="+86"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:textSize="@dimen/sp_18" />
+
+                <TextView
+                    android:layout_width="@dimen/px_2"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:layout_marginBottom="@dimen/px_20"
+                    android:background="@color/e_2de3d4"/>
 
                 <EditText
+                    android:id="@+id/py_bindphone_phonenum"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:gravity="center"
                     android:layout_marginLeft="@dimen/px_15"
-                    android:maxLines="1"
-                    android:inputType="text"
                     android:background="@null"
-                    android:hint="@string/py_register_email_hit"
+                    android:hint="@string/py_bind_phone_number"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:textSize="@dimen/sp_18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/px_600"
+                android:layout_height="@dimen/px_60"
+                android:layout_marginTop="@dimen/px_15"
+                android:paddingLeft="@dimen/px_15"
+                android:paddingRight="@dimen/px_15"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:background="@drawable/plat_white_rectangle_bg"
+                    android:id="@+id/py_bindphone_vf_code"
+                    android:layout_width="@dimen/px_250"
+                    android:layout_height="match_parent"
+                    android:hint="@string/py_bind_phone_vf_code"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:gravity="center"
                     android:textSize="@dimen/sp_18"
-                    android:id="@+id/py_register_account_mail"
+                    />
+
+                <TextView
+                    android:layout_width="@dimen/px_200"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/px_50"
+                    android:id="@+id/py_bindphone_get_vf_code"
+                    android:textSize="@dimen/sp_22"
+                    android:maxLines="1"
+                    android:background="@drawable/plat_white_rectangle_bg"
+                    android:gravity="center"
+                    android:text="@string/py_bind_phone_get_vf_code"
                     />
 
             </LinearLayout>
@@ -169,36 +223,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/px_60"
-            android:orientation="horizontal"
-            android:paddingLeft="@dimen/px_10"
-            android:paddingRight="@dimen/px_10"
-            android:layout_marginTop="@dimen/px_15"
-            android:gravity="center"
-            >
-
-            <ImageView android:layout_width="@dimen/px_30"
-                android:layout_height="@dimen/px_30"
-                android:src="@drawable/py_btn_checkbox_selector"
-                android:id="@+id/py_register_account_terms_check"
-
-                />
-
-            <TextView android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/py_register_account_terms"
-                android:gravity="center_vertical"
-                android:textSize="@dimen/sp_18"
-                android:layout_marginLeft="@dimen/px_15"
-                android:maxLines="1"
-                android:id="@+id/py_register_terms_text_id"
-                android:textColor="@android:color/white"
-                />
-
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -210,12 +234,12 @@
                 <!--android:layout_width="@dimen/px_420"-->
                 <!--android:layout_height="@dimen/px_60"-->
                 <!--android:background="@drawable/v2_login_sure"-->
-                <!--android:id="@+id/py_register_account_confirm"/>-->
+                <!--android:id="@+id/py_bind_account_confirm"/>-->
 
             <TextView
                 android:layout_width="@dimen/px_420"
                 android:layout_height="@dimen/px_60"
-                android:id="@+id/py_register_account_confirm"
+                android:id="@+id/py_bind_account_confirm"
                 android:text="@string/py_confire"
                 android:textStyle="bold"
                 android:textSize="@dimen/sp_24"

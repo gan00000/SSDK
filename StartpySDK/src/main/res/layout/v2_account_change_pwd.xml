@@ -31,11 +31,36 @@
             android:paddingRight="@dimen/px_30"
             android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="@dimen/px_400"
-                android:layout_height="match_parent"
-                android:id="@+id/py_change_pwd_title"
-                android:src="@drawable/v2_bg_title_chang_pwd"/>
+            <!--<ImageView-->
+                <!--android:layout_width="@dimen/px_400"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:id="@+id/py_change_pwd_title"-->
+                <!--android:src="@drawable/v2_bg_title_chang_pwd"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_30"
+                android:textColor="@android:color/white"
+                android:text="@string/py_login_page_change_pwd"
+                android:textStyle="bold"
+                android:shadowColor="#FF000000"
+                android:shadowRadius="3.0"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_15"
+                android:textColor="@android:color/white"
+                android:text="Change Password"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/px_5"
+                android:layout_marginLeft="@dimen/px_8"
+                />
+
 
 
         </LinearLayout>
