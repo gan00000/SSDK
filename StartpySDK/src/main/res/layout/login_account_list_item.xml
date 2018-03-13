@@ -21,8 +21,8 @@
         android:layout_width="@dimen/px_40"
         android:layout_height="@dimen/px_40"
         android:id="@+id/login_account_list_item_del"
-        android:layout_marginRight="@dimen/px_20"
-        android:background="@drawable/com_star_close"
+        android:layout_marginRight="@dimen/px_30"
+        android:background="@drawable/starpy_close"
         >
 
     </ImageView>

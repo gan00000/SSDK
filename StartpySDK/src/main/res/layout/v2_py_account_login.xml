@@ -114,8 +114,8 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/px_15"
                     android:padding="@dimen/px_8"
-                    android:id="@+id/py_login_account_list"
-                    android:src="@drawable/account_list_tips_bg"/>
+                    android:id="@+id/py_login_account_list_tips"
+                    android:src="@drawable/py_account_list_tips_selector"/>
 
             </LinearLayout>
             <LinearLayout
