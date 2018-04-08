@@ -40,25 +40,21 @@
         <activity
             android:name="com.starpy.sdk.login.SLoginActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"
-            android:screenOrientation="sensorLandscape"
             android:windowSoftInputMode="stateHidden"
             android:theme="@style/Starpy.Theme.AppCompat.Light.NoActionBar.FullScreen.Translucent"></activity>
         <activity
             android:name="com.starpy.sdk.SWebViewActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"
-            android:screenOrientation="sensorLandscape"
             android:windowSoftInputMode="stateHidden"
             android:theme="@style/Starpy.Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
         <activity
             android:name="com.starpy.pay.gp.GooglePayActivity2"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"
             android:windowSoftInputMode="stateHidden"
-            android:screenOrientation="sensorLandscape"
             android:theme="@style/Starpy.Theme.AppCompat.Light.NoActionBar.FullScreen.Translucent"></activity>
 
         <activity android:name="com.starpy.sdk.plat.PlatMainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"
-            android:screenOrientation="sensorLandscape"
             android:windowSoftInputMode="stateHidden"
             android:theme="@style/Starpy.Theme.AppCompat.Light.NoActionBar.FullScreen.Translucent"/>
 
