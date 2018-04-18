@@ -115,17 +115,18 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="com.starpy.sdk.StarpyBroadcastReceiver" android:exported="true">
+        <receiver
+            android:name="com.google.ads.conversiontracking.InstallReceiver" android:exported="true">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
 
-        <receiver
-            android:name="com.google.ads.conversiontracking.InstallReceiver"
-            android:exported="true">
+        <receiver android:name="com.starpy.sdk.StarpyBroadcastReceiver" android:exported="true">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
+                <action android:name="com.starpy.sdk.push.CLICK" />
+                <action android:name="com.starpy.sdk.push.DEL" />
             </intent-filter>
         </receiver>
 
@@ -145,7 +146,7 @@
 
         <!--play game services-->
         <meta-data android:name="com.google.android.gms.games.APP_ID"
-            android:value="@string/google_app_id" />
+            android:value="@string/google_game_app_id" />
 
         <!--play-services config end-->
 

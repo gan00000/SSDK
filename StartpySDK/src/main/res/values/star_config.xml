@@ -27,7 +27,7 @@
     <!--&lt;!&ndash;<integer name="google_play_services_version">11011000</integer>&ndash;&gt;-->
 
     <!--&lt;!&ndash; google play game services app_id &ndash;&gt;-->
-    <string name="google_app_id"></string>
+    <string name="google_game_app_id"></string>
 
     <!--<string name="google_client_id">605752434859-1sdr2hltdugd8kuk11h8mrjj492smmq9.apps.googleusercontent.com</string>-->
 
