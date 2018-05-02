@@ -150,6 +150,12 @@
 
         <!--play-services config end-->
 
+        <activity
+            android:name="${applicationId}.wxapi.WXEntryActivity"
+            android:exported="true"
+            >
+        </activity>
+
     </application>
 
     <!--需要添加以下配置 end-->
