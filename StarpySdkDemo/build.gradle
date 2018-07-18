@@ -5,7 +5,7 @@ android {
         starpySign {
             keyAlias 'brmmd'
             keyPassword 'brmmd666888'
-            storeFile file('../keystore/starpy-keystore.jks')
+            storeFile file('../keystore/starpy.keystore')
             storePassword 'brmmd666888'
         }
 
@@ -161,6 +161,23 @@ android {
             resValue "string", "facebook_app_id", ""
             resValue "string", "facebook_authorities", "com.starpy.hxcn"
             resValue "string", "google_game_app_id", ""
+
+        }
+
+
+        shzch {
+            applicationId "com.starpy.shzch"
+            signingConfig signingConfigs.starpySign
+            minSdkVersion 18
+            targetSdkVersion 26
+            versionCode 1
+            versionName "1.0"
+            dimension "all"
+
+            resValue "string", "facebook_app_name", "水浒大官人"
+            resValue "string", "facebook_app_id", "642233929477061"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider642233929477061"
+            resValue "string", "google_app_id", ""
 
         }
     }
