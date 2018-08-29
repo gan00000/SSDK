@@ -43,6 +43,13 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"
             android:windowSoftInputMode="stateHidden"
             android:theme="@style/Starpy.Theme.AppCompat.Light.NoActionBar.FullScreen.Translucent"></activity>
+
+        <activity
+            android:name="com.starpy.sdk.StarpyPermissionActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:theme="@style/Starpy.Theme.AppCompat.Light.NoActionBar.FullScreen.Translucent"></activity>
+
         <activity
             android:name="com.starpy.sdk.SWebViewActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|fontScale"

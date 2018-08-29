@@ -70,4 +70,8 @@
     <string name="py_unbind_phone_title_en_hit">Unbind Phone</string>
     <string name="py_unbind_phone_phonenum_tips">解綁的手機號碼，必填</string>
 
+    <string name="py_permission_tips">應用需要讀寫權限才能進行數據更新和存儲，不授權無法進行遊戲，是否開啟讀寫權限?</string>
+    <string name="py_permission_open">開啟權限</string>
+    <string name="py_permission_close">退出遊戲</string>
+
 </resources>
