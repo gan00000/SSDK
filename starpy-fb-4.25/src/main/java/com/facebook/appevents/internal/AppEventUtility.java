@@ -21,7 +21,8 @@
 package com.facebook.appevents.internal;
 
 import android.os.Looper;
-import android.support.v4.BuildConfig;
+
+import com.facebook.BuildConfig;
 
 import junit.framework.Assert;
 
