@@ -6,8 +6,8 @@ android {
         abortOnError false
     }
 
-    compileSdkVersion 26
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
     defaultConfig {
         minSdkVersion 18
         targetSdkVersion 25
@@ -23,23 +23,20 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-
-    compile 'com.google.android.gms:play-services-auth:11.8.0'
-    compile 'com.google.android.gms:play-services-plus:11.8.0'
-    compile 'com.google.android.gms:play-services-base:11.8.0'
-    compile 'com.google.android.gms:play-services-games:11.8.0'
-
-    compile 'com.google.firebase:firebase-core:11.8.0'
-    compile 'com.google.firebase:firebase-messaging:11.8.0'
-
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.android.gms:play-services-auth:11.8.0'
+    implementation 'com.google.android.gms:play-services-plus:11.8.0'
+    implementation 'com.google.android.gms:play-services-base:11.8.0'
+    implementation 'com.google.android.gms:play-services-games:11.8.0'
+    implementation 'com.google.firebase:firebase-core:11.8.0'
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
     //    compile(name:'AppCompat-release',ext:'aar')
     //    compile(name:'facebook-android-sdk-4.25-release',ext:'aar')
-    compile 'com.starpy.sdk:starpy-fb:4.25'
 
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'com.starpy.sdk:starpy-fb:4.25'
     implementation 'org.greenrobot:greendao:3.2.2'
-
-//    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:5.1.4'
+    //    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:5.1.4'
 }
 
 

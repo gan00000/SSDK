@@ -10,8 +10,8 @@ android {
         }
 
     }
-    compileSdkVersion 26
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
 
 
     defaultConfig {
@@ -177,7 +177,7 @@ android {
             resValue "string", "facebook_app_name", "水浒大官人"
             resValue "string", "facebook_app_id", "642233929477061"
             resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider642233929477061"
-            resValue "string", "google_app_id", ""
+            resValue "string", "google_game_app_id", ""
 
         }
     }
@@ -201,10 +201,10 @@ configurations.all {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     // Facebook Dependencies
-        compile 'com.starpy.sdk:starpy-sdk:2.+'
-//    implementation project(':StartpySDK')
+    implementation 'com.starpy.sdk:starpy-sdk:2.+'
+    //    implementation project(':StartpySDK')
 }
 
 

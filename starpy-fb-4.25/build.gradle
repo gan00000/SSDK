@@ -7,8 +7,8 @@ apply plugin: 'com.android.library'
 //version = "1.1"	//aar的版本号
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 18
@@ -26,14 +26,13 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     // Facebook Dependencies
-    compile 'com.android.support:appcompat-v7:26.0.2'
-    compile 'com.android.support:cardview-v7:26.0.2'
-    compile 'com.android.support:customtabs:26.0.2'
+    api 'com.android.support:appcompat-v7:27.1.1'
+    api 'com.android.support:cardview-v7:27.1.1'
+    api 'com.android.support:customtabs:27.1.1'
     //SDK额外的添加
-    compile 'com.android.support:recyclerview-v7:26.0.2'
+    api 'com.android.support:recyclerview-v7:27.1.1'
 }
 
 //
