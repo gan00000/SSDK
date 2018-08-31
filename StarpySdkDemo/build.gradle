@@ -180,6 +180,22 @@ android {
             resValue "string", "google_game_app_id", ""
 
         }
+
+        ygqs {
+            applicationId "com.starpy.ygqs"
+            signingConfig signingConfigs.starpySign
+            minSdkVersion 18
+            targetSdkVersion 28
+            versionCode 5  //厂商可自主定义，5以上
+            versionName "1.0"  //厂商可自主定义
+
+            resValue "string", "facebook_app_name", "月光奇迹"
+            resValue "string", "facebook_app_id", "706789363008178"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider706789363008178"
+            resValue "string", "google_game_app_id", ""
+
+            dimension "all"
+        }
     }
 
     android {
@@ -203,7 +219,7 @@ configurations.all {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     // Facebook Dependencies
-    implementation 'com.starpy.sdk:starpy-sdk:2.+'
+    implementation 'com.starpy.sdk:starpy-sdk:2.7.3'
     //    implementation project(':StartpySDK')
 }
 
