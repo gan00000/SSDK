@@ -227,3 +227,6 @@ dependencies {
 def getReleaseTime() {
     return new Date().format("yyyy-MM-dd-HH-mm", TimeZone.getDefault())
 }
+
+// ADD THIS AT THE BOTTOM
+//apply plugin: 'com.google.gms.google-services'
