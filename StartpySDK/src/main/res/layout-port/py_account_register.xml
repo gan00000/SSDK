@@ -51,6 +51,7 @@
                           android:maxLines="1"
                           android:textSize="@dimen/sp_22"
                           android:id="@+id/py_register_account"
+                    android:textColor="@android:color/black"
 
                 />
 
@@ -86,6 +87,7 @@
                           android:maxLines="1"
                           android:inputType="textPassword"
                           android:id="@+id/py_register_password"
+                    android:textColor="@android:color/black"
                 />
 
 

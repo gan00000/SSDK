@@ -97,6 +97,7 @@
                     android:textSize="@dimen/sp_18"
                     android:id="@+id/py_changepwd_account"
                     android:paddingLeft="@dimen/px_10"
+                    android:textColor="@android:color/black"
                     />
 
             </LinearLayout>
@@ -127,6 +128,7 @@
                     android:textSize="@dimen/sp_18"
                     android:paddingLeft="@dimen/px_10"
                     android:id="@+id/py_changepwd_old_password"
+                    android:textColor="@android:color/black"
                     />
 
 <!--
@@ -165,6 +167,7 @@
                     android:textSize="@dimen/sp_18"
                     android:id="@+id/py_changepwd_new_password"
                     android:paddingLeft="@dimen/px_10"
+                    android:textColor="@android:color/black"
                     />
 
             </LinearLayout>

@@ -107,6 +107,7 @@
                     android:hint="@string/py_register_account_hit"
                     android:textSize="@dimen/sp_18"
                     android:id="@+id/py_login_account_v2"
+                    android:textColor="@android:color/black"
                     />
 
                 <ImageView
@@ -145,6 +146,7 @@
                     android:textSize="@dimen/sp_18"
 
                     android:id="@+id/py_login_password_v2"
+                    android:textColor="@android:color/black"
                     />
 
 

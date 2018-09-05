@@ -95,6 +95,7 @@
                     android:hint="@string/py_register_account_hit"
                     android:textSize="@dimen/sp_18"
                     android:id="@+id/py_register_account"
+                    android:textColor="@android:color/black"
                     />
 
             </LinearLayout>
@@ -124,6 +125,7 @@
                     android:hint="@string/py_register_account_hit"
                     android:textSize="@dimen/sp_18"
                     android:id="@+id/py_register_password"
+                    android:textColor="@android:color/black"
                     />
 
 
@@ -162,6 +164,7 @@
                     android:hint="@string/py_register_email_hit"
                     android:textSize="@dimen/sp_18"
                     android:id="@+id/py_register_account_mail"
+                    android:textColor="@android:color/black"
                     />
 
             </LinearLayout>
