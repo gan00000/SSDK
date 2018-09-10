@@ -196,6 +196,22 @@ android {
 
             dimension "all"
         }
+
+        qlz {
+            applicationId "com.qqgame.qlz"
+            signingConfig signingConfigs.starpySign
+            minSdkVersion 18
+            targetSdkVersion 28
+            versionCode 5  //厂商可自主定义，5以上
+            versionName "5.0"  //厂商可自主定义
+
+            resValue "string", "facebook_app_name", "qlz"
+            resValue "string", "facebook_app_id", "236658347018463"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider236658347018463"
+            resValue "string", "google_game_app_id", ""
+
+            dimension "all"
+        }
     }
 
     android {
