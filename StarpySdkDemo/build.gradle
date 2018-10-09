@@ -235,7 +235,7 @@ configurations.all {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     // Facebook Dependencies
-    implementation 'com.starpy.sdk:starpy-sdk:2.7.5'
+    implementation 'com.starpy.sdk:starpy-sdk:2.7.7'
     //    implementation project(':StartpySDK')
 }
 
