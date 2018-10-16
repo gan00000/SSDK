@@ -110,10 +110,10 @@
             android:value="@string/facebook_app_name" />
 
         <!--如果要通过 Android 版 Facebook 应用分享链接、图片或视频，还需要在清单文件中声明 FacebookContentProvider-->
-        <provider
+       <!-- <provider
             android:name="com.facebook.FacebookContentProvider"
             android:authorities="@string/facebook_authorities"
-            android:exported="true" />
+            android:exported="true" />-->
 
         <!--The AppsFlyer Install Receiver is first and will broadcast to all receivers placed below it-->
         <receiver android:name="com.appsflyer.MultipleInstallBroadcastReceiver" android:exported="true">
