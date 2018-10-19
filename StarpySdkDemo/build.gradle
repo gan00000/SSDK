@@ -254,6 +254,22 @@ android {
 
             dimension "all"
         }
+
+        kcdn {
+            applicationId "com.starpy.kcdn"
+            signingConfig signingConfigs.starpySign
+            minSdkVersion 18
+            targetSdkVersion 28
+            versionCode 1  //厂商可自主定义，5以上
+            versionName "1.0"  //厂商可自主定义
+
+            resValue "string", "facebook_app_name", "kcdn"
+            resValue "string", "facebook_app_id", "283956128912739"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider283956128912739"
+            resValue "string", "google_game_app_id", ""
+
+            dimension "all"
+        }
     }
 
     android {
