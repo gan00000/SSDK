@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
+        
         starpySign {
             keyAlias 'brmmd'
             keyPassword 'brmmd666888'
@@ -14,6 +15,13 @@ android {
             keyPassword 'qq123456'
             storeFile file('../keystore/qqgame-keystore.jks')
             storePassword 'qq123456'
+        }
+
+        qqgameSign2 {
+            storeFile file('../keystore/starpyqqkey2.keystore')
+            keyAlias 'key0'
+            keyPassword 'qqgame999'
+            storePassword 'qqgame999'
         }
 
     }
@@ -208,8 +216,8 @@ android {
         }
 
         qlz {
-            applicationId "com.swen.skyqlz"
-            signingConfig signingConfigs.starpySign
+            applicationId "com.ioke.our"
+            signingConfig signingConfigs.qqgameSign
             minSdkVersion 18
             targetSdkVersion 28
             versionCode 1  //厂商可自主定义，5以上
