@@ -65,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
                             String uid = sLoginResponse.getUserId();
                             String accessToken = sLoginResponse.getAccessToken();
                             String timestamp = sLoginResponse.getTimestamp();
+
+                            String fbName = sLoginResponse.getFbName();//fb昵称
+                            String fbPictureUrl = sLoginResponse.getFbPictureUrl();//fb头像url
+
                             PL.i("uid:" + uid);
                         }
                     }

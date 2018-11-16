@@ -24,6 +24,13 @@ android {
             storePassword 'qqgame999'
         }
 
+        starpysg_sign {
+            keyAlias 'sgsp'
+            keyPassword 'sgsp88'
+            storePassword 'sgsp88'
+            storeFile file('../keystore/starpysg.keystore')
+        }
+
     }
     compileSdkVersion 27
     buildToolsVersion '28.0.3'
@@ -308,7 +315,7 @@ android {
             resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider2252535725017436"
             resValue "string", "google_game_app_id", ""
 
-            signingConfig signingConfigs.qqgameSign2
+            signingConfig signingConfigs.starpysg_sign
             dimension "all"
         }
 
