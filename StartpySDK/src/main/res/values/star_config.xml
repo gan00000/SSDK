@@ -5,6 +5,7 @@
     <string name="facebook_app_name"></string>
     <string name="facebook_app_id"></string>
     <string name="facebook_authorities"></string>
+    <string name="fb_login_protocol_scheme"></string>
     <!--&lt;!&ndash; fb配置end &ndash;&gt;-->
 
     <!--<string name="star_game_code">twzj</string>-->

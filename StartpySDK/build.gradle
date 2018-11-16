@@ -23,24 +23,37 @@ android {
 }
 
 dependencies {
+
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    //    api 'com.android.support:appcompat-v7:27.1.1'
-    //    api 'com.android.support:cardview-v7:27.1.1'
-    //    api 'com.android.support:customtabs:27.1.1'
+
+    api 'com.android.support:appcompat-v7:27.0.2'
+    api 'com.android.support:cardview-v7:27.0.2'
+    api 'com.android.support:customtabs:27.0.2'
     //SDK额外的添加
-    //    api 'com.android.support:recyclerview-v7:27.1.1'
+    api 'com.android.support:recyclerview-v7:27.0.2'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'org.greenrobot:greendao:3.2.2'
+    implementation 'com.google.code.gson:gson:2.8.2'
+
     implementation 'com.google.android.gms:play-services-auth:11.8.0'
     implementation 'com.google.android.gms:play-services-plus:11.8.0'
     implementation 'com.google.android.gms:play-services-base:11.8.0'
     implementation 'com.google.android.gms:play-services-games:11.8.0'
     implementation 'com.google.firebase:firebase-core:11.8.0'
     implementation 'com.google.firebase:firebase-messaging:11.8.0'
-    //    compile(name:'AppCompat-release',ext:'aar')
-    //    compile(name:'facebook-android-sdk-4.25-release',ext:'aar')
-    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
-    implementation 'com.starpy.sdk:starpy-fb:4.25'
-    implementation 'org.greenrobot:greendao:3.2.2'
+
+
+//    implementation 'com.starpy.sdk:starpy-fb:4.25'
     //    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:5.1.4'
+
+    api 'com.facebook.android:facebook-core:[4,5)'
+    api 'com.facebook.android:facebook-login:[4,5)'
+    api 'com.facebook.android:facebook-share:[4,5)'
+//    api 'com.facebook.android:facebook-places:[4,5)'
+    api 'com.facebook.android:facebook-messenger:[4,5)'
+//    api 'com.facebook.android:facebook-applinks:[4,5)'
+    implementation 'com.facebook.fresco:fresco:1.11.0'
 }
 
 
