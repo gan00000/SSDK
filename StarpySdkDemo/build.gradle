@@ -275,6 +275,7 @@ android {
             resValue "string", "facebook_app_id", "283956128912739"
             resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider283956128912739"
             resValue "string", "google_game_app_id", ""
+            resValue "string", "fb_login_protocol_scheme", "fb236658347018463"
 
             dimension "all"
         }
@@ -334,7 +335,7 @@ configurations.all {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     // Facebook Dependencies
-    implementation 'com.starpy.sdk:starpy-sdk:2.7.10'
+    implementation 'com.starpy.sdk:starpy-sdk:2.8.0'
     //    implementation project(':StartpySDK')
 }
 
