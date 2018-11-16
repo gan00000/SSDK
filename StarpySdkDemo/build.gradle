@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
-        
+
         starpySign {
             keyAlias 'brmmd'
             keyPassword 'brmmd666888'
@@ -278,6 +278,39 @@ android {
 
             dimension "all"
         }
+
+        hzen {
+            applicationId "com.sklu.hzen"
+            minSdkVersion 18
+            targetSdkVersion 28
+            versionCode 5  //厂商可自主定义，5以上
+            versionName "5.0"  //厂商可自主定义
+
+            resValue "string", "facebook_app_name", "hzen"
+            resValue "string", "facebook_app_id", "578356335948891"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider578356335948891"
+            resValue "string", "google_game_app_id", ""
+
+            signingConfig signingConfigs.qqgameSign2
+            dimension "all"
+        }
+
+        rqsh {
+            applicationId "com.starpy.rqsh"
+            minSdkVersion 18
+            targetSdkVersion 28
+            versionCode 5  //厂商可自主定义，5以上
+            versionName "5.0"  //厂商可自主定义
+
+            resValue "string", "facebook_app_name", "rqsh"
+            resValue "string", "facebook_app_id", "2252535725017436"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider2252535725017436"
+            resValue "string", "google_game_app_id", ""
+
+            signingConfig signingConfigs.qqgameSign2
+            dimension "all"
+        }
+
     }
 
     android {
