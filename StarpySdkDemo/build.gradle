@@ -275,7 +275,7 @@ android {
             signingConfig signingConfigs.starpySign
             minSdkVersion 18
             targetSdkVersion 28
-            versionCode 1  //厂商可自主定义，5以上
+            versionCode 5  //厂商可自主定义，5以上
             versionName "1.0"  //厂商可自主定义
 
             resValue "string", "facebook_app_name", "kcdn"
@@ -292,7 +292,7 @@ android {
             minSdkVersion 18
             targetSdkVersion 28
             versionCode 5  //厂商可自主定义，5以上
-            versionName "5.0"  //厂商可自主定义
+            versionName "1.0"  //厂商可自主定义
 
             resValue "string", "facebook_app_name", "hzen"
             resValue "string", "facebook_app_id", "578356335948891"
@@ -313,6 +313,40 @@ android {
             resValue "string", "facebook_app_name", "rqsh"
             resValue "string", "facebook_app_id", "2252535725017436"
             resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider2252535725017436"
+            resValue "string", "google_game_app_id", ""
+
+            signingConfig signingConfigs.starpysg_sign
+            dimension "all"
+        }
+
+        jsql {
+            applicationId "com.starpy.jsql"
+            minSdkVersion 18
+            targetSdkVersion 28
+            versionCode 5  //厂商可自主定义，5以上
+            versionName "5.0"  //厂商可自主定义
+
+            resValue "string", "facebook_app_name", "jsql"
+            resValue "string", "facebook_app_id", "2253771361511023"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider2253771361511023"
+            resValue "string", "fb_login_protocol_scheme", "fb2253771361511023"
+            resValue "string", "google_game_app_id", ""
+
+            signingConfig signingConfigs.starpysg_sign
+            dimension "all"
+        }
+
+        mxxfj {
+            applicationId "com.starpy.mxxfj"
+            minSdkVersion 18
+            targetSdkVersion 28
+            versionCode 5  //厂商可自主定义，5以上
+            versionName "5.0"  //厂商可自主定义
+
+            resValue "string", "facebook_app_name", "mxxfj"
+            resValue "string", "facebook_app_id", "330677060859438"
+            resValue "string", "facebook_authorities", "com.facebook.app.FacebookContentProvider330677060859438"
+            resValue "string", "fb_login_protocol_scheme", "fb330677060859438"
             resValue "string", "google_game_app_id", ""
 
             signingConfig signingConfigs.starpysg_sign
