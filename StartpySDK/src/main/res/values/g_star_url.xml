@@ -24,5 +24,8 @@
     <string name="g_star_ads_pre_url">http://ads.starpyse.com/</string>
     <string name="g_star_ads_spa_url">http://ads.starpyse.com/</string>
 
+    <string name="g_star_access_pre_url">http://access.starpyse.com/</string>
+    <string name="g_star_access_spa_url">http://access.starpyse.com/</string>
+
 
 </resources>

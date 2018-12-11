@@ -24,5 +24,8 @@
     <string name="ch_star_ads_pre_url">http://ads.yor88.com/</string>
     <string name="ch_star_ads_spa_url">http://ads.yor88.com/</string>
 
+    <string name="ch_star_access_pre_url">http://access.yor88.com/</string>
+    <string name="ch_star_access_spa_url">http://access.yor88.com/</string>
+
 
 </resources>
