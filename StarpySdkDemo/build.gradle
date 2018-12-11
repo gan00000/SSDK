@@ -37,6 +37,8 @@ android {
 
 
     defaultConfig {
+
+        multiDexEnabled true
         ndk {
             abiFilters "armeabi", "armeabi-v7a", "x86"  // 指定要ndk需要兼容的架构(这样其他依赖包里mips之类的so会被过滤掉)
         }
@@ -375,9 +377,9 @@ configurations.all {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    // Facebook Dependencies
-    implementation 'com.starpy.sdk:starpy-sdk:2.8.0'
-    //    implementation project(':StartpySDK')
+
+    implementation 'com.starpy.sdk:starpy-sdk:2.8.1'
+    implementation 'com.android.support:multidex:1.0.3'
 }
 
 

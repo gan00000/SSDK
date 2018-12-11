@@ -63,6 +63,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="打开平台" />
+                <Button
+                    android:id="@+id/showad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="显示广告ad" />
 
             </LinearLayout>
 
@@ -95,6 +100,27 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="显示排行榜" />
+                <Button
+                    android:id="@+id/get_fb_friends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="获取fb好友" />
+
+                <Button
+                    android:id="@+id/invite_fb_friends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="邀请好友" />
+                <Button
+                    android:id="@+id/get_invite_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="获取分享邀请的用户" />
+                <Button
+                    android:id="@+id/fb_share_ad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="弹出分享或者广告(分享次数满足后弹广告)" />
 
             </LinearLayout>
 
