@@ -378,7 +378,7 @@ configurations.all {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
-    implementation 'com.starpy.sdk:starpy-sdk:2.8.1'
+    implementation 'com.starpy.sdk:starpy-sdk:2.8.5'
     implementation 'com.android.support:multidex:1.0.3'
 }
 

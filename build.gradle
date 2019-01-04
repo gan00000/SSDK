@@ -2,13 +2,13 @@
 
 buildscript {
     repositories {
-        jcenter()
+
         google()
         maven {
             url 'https://maven.google.com/'
             name 'Google'
         }
-
+        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.0'
@@ -28,7 +28,7 @@ buildscript {
 //添加以下配置
 allprojects {
     repositories {
-        jcenter()
+
         google()
         maven {
             url "http://maven.starpy168.com:8081/repository/maven-public/"
@@ -37,6 +37,7 @@ allprojects {
                 password "cpdev1688"
             }
         }
+        jcenter()
     }
 }
 
