@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 //下面的参数请按照实际传值
-                String shareUrl = "http://ads.starb168.com/ads_scanner?gameCode=mthxtw&adsPlatForm=star_event&advertiser=share";
+                String shareUrl = "https://developers.facebook.com/support/bugs/";
                 //分享回调
                 ISdkCallBack iSdkCallBack = new ISdkCallBack() {
                     @Override
