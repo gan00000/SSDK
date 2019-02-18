@@ -1,31 +1,58 @@
 <resources>
 
-    <string name="star_py_login_pre_url">http://login.starb168.com/</string>
-    <string name="star_py_login_spa_url">http://login.starb168.com/</string>
+    <!--<string name="star_py_login_pre_url">http://login.starb168.com/</string>-->
+    <!--<string name="star_py_login_spa_url">http://login.starb168.com/</string>-->
 
-    <string name="star_py_pay_pre_url">http://pay.starb168.com/</string>
-    <string name="star_py_pay_spa_url">http://pay.starb168.com/</string>
+    <!--<string name="star_py_pay_pre_url">http://pay.starb168.com/</string>-->
+    <!--<string name="star_py_pay_spa_url">http://pay.starb168.com/</string>-->
 
-    <string name="star_py_cs_pre_url">http://cs.starb168.com/</string>
-    <string name="star_py_cs_spa_url">http://cs.starb168.com/</string>
+    <!--<string name="star_py_cs_pre_url">http://cs.starb168.com/</string>-->
+    <!--<string name="star_py_cs_spa_url">http://cs.starb168.com/</string>-->
 
-    <string name="star_py_act_pre_url">http://activity.starb168.com/</string>
-    <string name="star_py_act_spa_url">http://activity.starb168.com/</string>
+    <!--<string name="star_py_act_pre_url">http://activity.starb168.com/</string>-->
+    <!--<string name="star_py_act_spa_url">http://activity.starb168.com/</string>-->
+
+    <!--&lt;!&ndash;平台CND的主域名：autocdn-palt.starb168.com&ndash;&gt;-->
+    <!--&lt;!&ndash;备用域名：autocdn-paltsl.starb168.com&ndash;&gt;-->
+    <!--<string name="star_py_cdn_pre_url">http://autocdn-palt.starb168.com/</string>-->
+    <!--<string name="star_py_cdn_spa_url">http://autocdn-paltsl.starb168.com/</string>-->
+
+
+    <!--<string name="star_plat_pre_url">http://platform.starb168.com/</string>-->
+    <!--<string name="star_plat_spa_url">http://platform.starb168.com/</string>-->
+
+    <!--<string name="star_ads_pre_url">http://ads.starb168.com/</string>-->
+    <!--<string name="star_ads_spa_url">http://ads.starb168.com/</string>-->
+
+    <!--<string name="star_access_pre_url">http://access.starb168.com/</string>-->
+    <!--<string name="star_access_spa_url">http://access.starb168.com/</string>-->
+
+
+    <string name="star_py_login_pre_url">http://fkxm-login.loqius.com/</string>
+    <string name="star_py_login_spa_url">http://fkxm-login.loqius.com/</string>
+
+    <string name="star_py_pay_pre_url">http://fkxm-pay.loqius.com/</string>
+    <string name="star_py_pay_spa_url">http://fkxm-pay.loqius.com/</string>
+
+    <string name="star_py_cs_pre_url">http://fkxm-cs.loqius.com/</string>
+    <string name="star_py_cs_spa_url">http://fkxm-cs.loqius.com/</string>
+
+    <string name="star_py_act_pre_url">http://fkxm-activity.loqius.com/</string>
+    <string name="star_py_act_spa_url">http://fkxm-activity.loqius.com/</string>
 
     <!--平台CND的主域名：autocdn-palt.starb168.com-->
     <!--备用域名：autocdn-paltsl.starb168.com-->
-    <string name="star_py_cdn_pre_url">http://autocdn-palt.starb168.com/</string>
-    <string name="star_py_cdn_spa_url">http://autocdn-paltsl.starb168.com/</string>
+    <string name="star_py_cdn_pre_url">http://fkxm-cdn.loqius.com/</string>
+    <string name="star_py_cdn_spa_url">http://fkxm-cdn.loqius.com/</string>
 
 
-    <string name="star_plat_pre_url">http://platform.starb168.com/</string>
-    <string name="star_plat_spa_url">http://platform.starb168.com/</string>
+    <string name="star_plat_pre_url">http://fkxm-platform.loqius.com/</string>
+    <string name="star_plat_spa_url">http://fkxm-platform.loqius.com/</string>
 
-    <string name="star_ads_pre_url">http://ads.starb168.com/</string>
-    <string name="star_ads_spa_url">http://ads.starb168.com/</string>
+    <string name="star_ads_pre_url">http://fkxm-ads.loqius.com/</string>
+    <string name="star_ads_spa_url">http://fkxm-ads.loqius.com/</string>
 
     <string name="star_access_pre_url">http://access.starb168.com/</string>
     <string name="star_access_spa_url">http://access.starb168.com/</string>
-
 
 </resources>
